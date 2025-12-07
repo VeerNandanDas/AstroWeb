@@ -96,7 +96,7 @@ export default function Home() {
       <Head>
         <title>Divine Astrology - Premium Gemstones, Spiritual Guidance & Authentic Remedies</title>
       </Head>
-      <div className="min-h-screen">
+      <div className="min-h-screen bg-gradient-to-b from-purple-900 via-purple-800 to-purple-900/95">
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">
           {/* Video Background */}
@@ -146,11 +146,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Smooth Transition Section */}
-        <div className="h-32 bg-gradient-to-b from-purple-900/85 via-purple-800/40 to-background"></div>
-
         {/* Features Section */}
-        <section className="py-16 lg:py-24 bg-background relative">
+        <section className="py-16 lg:py-24 relative">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
               {/* Card 1 - Purple/Lavender */}
@@ -210,7 +207,7 @@ export default function Home() {
         </section>
 
         {/* Categories Section */}
-        <section className="py-16 lg:py-24 bg-muted/30">
+        <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
@@ -245,7 +242,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 lg:py-24 bg-primary text-primary-foreground">
+        <section className="py-16 lg:py-24 text-primary-foreground">
           <div className="container mx-auto px-4 lg:px-8 text-center">
             <Sparkles className="h-12 w-12 text-accent mx-auto mb-6" />
             <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
@@ -264,7 +261,7 @@ export default function Home() {
         </section>
 
         {/* Daily Horoscope Section */}
-        <section className="py-16 lg:py-24 bg-background">
+        <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-12">
               <div className="flex items-center justify-center gap-3 mb-4">
@@ -304,7 +301,7 @@ export default function Home() {
         </section>
 
         {/* Trust Section */}
-        <section className="py-16 lg:py-24 bg-primary text-primary-foreground">
+        <section className="py-16 lg:py-24 text-primary-foreground">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
@@ -327,7 +324,7 @@ export default function Home() {
         </section>
 
         {/* Testimonials */}
-        <section className="py-16 lg:py-24 bg-muted/30">
+        <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
@@ -343,7 +340,7 @@ export default function Home() {
         </section>
 
         {/* Blog Section */}
-        <section className="py-16 lg:py-24 bg-background">
+        <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
@@ -368,7 +365,7 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 lg:py-24 bg-muted/30">
+        <section className="py-16 lg:py-24">
           <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
