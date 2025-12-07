@@ -35,22 +35,22 @@ export function Footer() {
             <h3 className="font-semibold text-base">Quick Links</h3>
             <nav className="flex flex-col gap-2">
               <Link href="/about">
-                <Button variant="link" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-about">
+                <Button variant="ghost" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-about">
                   About Us
                 </Button>
               </Link>
               <Link href="/blog">
-                <Button variant="link" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-blog">
+                <Button variant="ghost" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-blog">
                   Blog
                 </Button>
               </Link>
               <Link href="/book-appointment">
-                <Button variant="link" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-appointment">
+                <Button variant="ghost" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-appointment">
                   Book Consultation
                 </Button>
               </Link>
               <Link href="/contact">
-                <Button variant="link" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-contact">
+                <Button variant="ghost" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-contact">
                   Contact Us
                 </Button>
               </Link>
@@ -62,22 +62,22 @@ export function Footer() {
             <h3 className="font-semibold text-base">Policies</h3>
             <nav className="flex flex-col gap-2">
               <Link href="/privacy-policy">
-                <Button variant="link" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-privacy">
+                <Button variant="ghost" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-privacy">
                   Privacy Policy
                 </Button>
               </Link>
               <Link href="/terms">
-                <Button variant="link" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-terms">
+                <Button variant="ghost" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-terms">
                   Terms & Conditions
                 </Button>
               </Link>
               <Link href="/refund-policy">
-                <Button variant="link" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-refund">
+                <Button variant="ghost" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-refund">
                   Refund Policy
                 </Button>
               </Link>
               <Link href="/shipping-policy">
-                <Button variant="link" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-shipping">
+                <Button variant="ghost" className="h-auto p-0 text-sm text-primary-foreground/80 hover:text-accent justify-start" data-testid="link-footer-shipping">
                   Shipping Policy
                 </Button>
               </Link>

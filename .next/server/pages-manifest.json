@@ -1,0 +1,22 @@
+{
+  "/": "pages/index.html",
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/blog": "pages/blog.html",
+  "/blog/[slug]": "pages/blog/[slug].html",
+  "/book-appointment": "pages/book-appointment.html",
+  "/cart": "pages/cart.html",
+  "/contact": "pages/contact.html",
+  "/horoscope": "pages/horoscope.html",
+  "/horoscope/[sign]": "pages/horoscope/[sign].html",
+  "/login": "pages/login.html",
+  "/product/[id]": "pages/product/[id].html",
+  "/products": "pages/products.html",
+  "/products/[category]": "pages/products/[category].html",
+  "/profile": "pages/profile.html",
+  "/signup": "pages/signup.html",
+  "/videos": "pages/videos.html"
+}
