@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
+import { useRouter } from "next/router";
 import Head from "next/head";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -28,6 +29,7 @@ interface Appointment {
 }
 
 export default function BookAppointment() {
+  const router = useRouter();
   const { toast } = useToast();
   const { user, isAdmin, loading: authLoading } = useAuth();
   const [date, setDate] = useState<Date | undefined>(new Date());
@@ -36,24 +38,6 @@ export default function BookAppointment() {
   const [isBooking, setIsBooking] = useState(false);
   const [updatingId, setUpdatingId] = useState<string | null>(null);
   const [selectedService, setSelectedService] = useState<string | null>(null);
-
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const service = params.get("service");
-    if (service) {
-      setSelectedService(service);
-      const foundService = services.find(s => s.id === service);
-      if (foundService) {
-        setConsultationType(foundService.name);
-      }
-    }
-  }, []);
-
-  const timeSlots = [
-    "10:00 AM", "11:00 AM", "12:00 PM",
-    "02:00 PM", "03:00 PM", "04:00 PM",
-    "05:00 PM", "06:00 PM", "07:00 PM"
-  ];
 
   const services = [
     {
@@ -121,6 +105,25 @@ export default function BookAppointment() {
     }
   ];
 
+  useEffect(() => {
+    const service = router.query.service as string;
+    if (service) {
+      setSelectedService(service);
+      const foundService = services.find(s => s.id === service);
+      if (foundService) {
+        setConsultationType(foundService.name);
+      }
+    } else {
+      setSelectedService(null);
+    }
+  }, [router.query.service]);
+
+  const timeSlots = [
+    "10:00 AM", "11:00 AM", "12:00 PM",
+    "02:00 PM", "03:00 PM", "04:00 PM",
+    "05:00 PM", "06:00 PM", "07:00 PM"
+  ];
+
   const { data: appointments = [], isLoading: appointmentsLoading, refetch } = useQuery<Appointment[]>({
     queryKey: ["/api/appointments"],
     queryFn: async () => {
@@ -177,7 +180,7 @@ export default function BookAppointment() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     const form = e.currentTarget;
     const name = (form.querySelector("#name") as HTMLInputElement)?.value;
     const email = (form.querySelector("#email") as HTMLInputElement)?.value;
@@ -209,12 +212,12 @@ export default function BookAppointment() {
       });
 
       if (!response.ok) throw new Error("Failed to book appointment");
-      
+
       toast({
         title: "Success",
         description: "Your appointment has been booked successfully! Check your email for confirmation."
       });
-      
+
       form.reset();
       setSelectedTime(null);
       setDate(new Date());
@@ -287,12 +290,12 @@ export default function BookAppointment() {
                         </div>
                         <div>
                           <p className="text-sm text-muted-foreground">Status</p>
-                          <Badge 
+                          <Badge
                             variant={
                               appointment.status === "accepted" ? "default" :
-                              appointment.status === "declined" ? "destructive" :
-                              appointment.status === "completed" ? "secondary" :
-                              "outline"
+                                appointment.status === "declined" ? "destructive" :
+                                  appointment.status === "completed" ? "secondary" :
+                                    "outline"
                             }
                           >
                             {appointment.status}
@@ -311,7 +314,7 @@ export default function BookAppointment() {
                           <p className="text-sm">{appointment.message}</p>
                         </div>
                       )}
-                      
+
                       {appointment.status === "pending" && (
                         <div className="mt-4 pt-4 border-t flex gap-2 flex-wrap">
                           <Button
@@ -396,10 +399,10 @@ export default function BookAppointment() {
                       ACHARYA OM SHAH KASHYAP
                     </h3>
                     <p className="text-xs text-muted-foreground mb-3 leading-relaxed">
-                      Jyotish Acharya (Gold Medal)<br/>
-                      Bhartiya Vidya Bhawan<br/>
-                      M.A. Astrology, UOU, Uttarakhand<br/>
-                      Medical Astrology (Diploma), SLBSNSU<br/>
+                      Jyotish Acharya (Gold Medal)<br />
+                      Bhartiya Vidya Bhawan<br />
+                      M.A. Astrology, UOU, Uttarakhand<br />
+                      Medical Astrology (Diploma), SLBSNSU<br />
                       Vaastu Shastra (Diploma), BVB–Delhi
                     </p>
                     <div className="flex items-center justify-center gap-1 mb-4">
@@ -415,7 +418,7 @@ export default function BookAppointment() {
                       <MapPin className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                       <div>
                         <p className="font-semibold text-sm">Address</p>
-                        <p className="text-xs text-muted-foreground">133 D, India Expo Plaza<br/>Knowledge Park II Metro<br/>Greater Noida, 201310</p>
+                        <p className="text-xs text-muted-foreground">133 D, India Expo Plaza<br />Knowledge Park II Metro<br />Greater Noida, 201310</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
@@ -490,11 +493,10 @@ export default function BookAppointment() {
                             <div
                               key={service.id}
                               onClick={() => setConsultationType(service.name)}
-                              className={`p-4 rounded-lg border-2 cursor-pointer transition-all hover-elevate ${
-                                consultationType === service.name
-                                  ? "border-accent bg-accent/10"
-                                  : "border-border bg-background"
-                              }`}
+                              className={`p-4 rounded-lg border-2 cursor-pointer transition-all hover-elevate ${consultationType === service.name
+                                ? "border-accent bg-accent/10"
+                                : "border-border bg-background"
+                                }`}
                             >
                               <div className="flex justify-between items-start gap-2 mb-2">
                                 <h3 className="font-semibold text-sm leading-tight flex-1">{service.name}</h3>
