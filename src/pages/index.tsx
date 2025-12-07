@@ -98,14 +98,19 @@ export default function Home() {
       </Head>
       <div className="min-h-screen">
         {/* Hero Section */}
-        <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-primary">
-          <div 
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url(/Gemini_Generated_Image_zfkkiizfkkiizfkk_1764098153309.png)`,
-            }}
-          >
-            <div className="absolute inset-0 bg-gradient-to-b from-purple-900/70 via-violet-900/60 to-purple-900/75"></div>
+        <section className="relative h-screen flex items-center justify-center overflow-hidden">
+          {/* YouTube Video Background */}
+          <div className="absolute inset-0 w-full h-full">
+            <iframe
+              className="absolute top-1/2 left-1/2 w-[177.77777778vh] h-[56.25vw] min-h-full min-w-full -translate-x-1/2 -translate-y-1/2"
+              src="https://www.youtube.com/embed/8Ao55eltH0Y?autoplay=1&mute=1&loop=1&playlist=8Ao55eltH0Y&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1"
+              title="Astrology Background"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+            {/* Dark overlay for better text readability */}
+            <div className="absolute inset-0 bg-gradient-to-b from-purple-900/80 via-violet-900/70 to-purple-900/85"></div>
           </div>
 
           <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
@@ -113,17 +118,17 @@ export default function Home() {
               <Sparkles className="h-3 w-3 mr-1" />
               Trusted by 50,000+ Customers
             </Badge>
-            
+
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 max-w-4xl mx-auto leading-tight">
               Awaken Your Inner{" "}
               <span className="text-accent">ज्योति</span>
               {" "}Guide Your Destiny
             </h1>
-            
+
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
               Discover authentic gemstones, spiritual remedies, and expert astrology consultations to guide your journey to wellness and prosperity.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link href="/products">
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 min-w-[200px]">
