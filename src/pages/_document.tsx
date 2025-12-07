@@ -9,6 +9,9 @@ export default function Document() {
         <meta property="og:title" content="Divine Astrology - Premium Gemstones & Spiritual Guidance" />
         <meta property="og:description" content="Authentic spiritual products and expert astrology consultations for your well-being" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://astro-web-nine-pink.vercel.app/file.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://astro-web-nine-pink.vercel.app/file.png" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
