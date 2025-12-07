@@ -393,6 +393,7 @@ export default function BookAppointment() {
                 <CardContent className="p-6 space-y-6">
                   <div className="text-center">
                     <Avatar className="w-32 h-32 mx-auto mb-4">
+                      <AvatarImage src="/file.png" alt="Acharya Om Shah Kashyap" />
                       <AvatarFallback>AOS</AvatarFallback>
                     </Avatar>
                     <h3 className="font-serif text-2xl font-bold mb-2">
