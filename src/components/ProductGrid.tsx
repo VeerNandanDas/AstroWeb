@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { Link } from "wouter";
+import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -92,11 +92,10 @@ export function ProductGrid({ category, limit }: ProductGridProps) {
                 {Array.from({ length: 5 }).map((_, i) => (
                   <Star
                     key={i}
-                    className={`h-3.5 w-3.5 ${
-                      i < Math.floor(Number(product.rating))
+                    className={`h-3.5 w-3.5 ${i < Math.floor(Number(product.rating))
                         ? "text-accent fill-accent"
                         : "text-muted stroke-muted-foreground"
-                    }`}
+                      }`}
                   />
                 ))}
               </div>

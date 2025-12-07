@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Link, useLocation } from "wouter";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { ShoppingCart, Menu, X, Sparkles, Phone, User, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -19,7 +20,8 @@ interface NavigationProps {
 }
 
 export function Navigation({ cartItemCount }: NavigationProps) {
-  const [location] = useLocation();
+  const router = useRouter();
+  const location = router.pathname;
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { user, isAdmin, signOut, loading } = useAuth();
 
@@ -60,7 +62,7 @@ export function Navigation({ cartItemCount }: NavigationProps) {
               <Button variant="ghost" size="sm" className="text-sm font-medium" data-testid="button-consultation-menu">
                 Book a Consultation Now
               </Button>
-              
+
               <div className="absolute left-0 mt-0 w-56 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="p-2 space-y-1">
                   <div className="group/item relative">
@@ -190,13 +192,13 @@ export function Navigation({ cartItemCount }: NavigationProps) {
                 Blogs
               </Button>
             </Link>
-            
+
             <Link href="/videos">
               <Button variant="ghost" size="sm" data-testid="link-videos" className={location === "/videos" ? "bg-accent/10" : ""}>
                 Videos
               </Button>
             </Link>
-            
+
             <Link href="/contact">
               <Button variant="ghost" size="sm" data-testid="link-contact" className={location === "/contact" ? "bg-accent/10" : ""}>
                 Contact Us
@@ -209,7 +211,7 @@ export function Navigation({ cartItemCount }: NavigationProps) {
             <Button variant="ghost" size="icon" className="hidden lg:flex" data-testid="button-phone">
               <Phone className="h-5 w-5" />
             </Button>
-            
+
             <Link href="/cart">
               <Button variant="ghost" size="icon" className="relative" data-testid="button-cart">
                 <ShoppingCart className="h-5 w-5" />
@@ -228,8 +230,8 @@ export function Navigation({ cartItemCount }: NavigationProps) {
                     <User className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Button 
-                  variant="ghost" 
+                <Button
+                  variant="ghost"
                   size="icon"
                   onClick={() => signOut()}
                   data-testid="button-logout"
@@ -353,8 +355,8 @@ export function Navigation({ cartItemCount }: NavigationProps) {
                             </Button>
                           </Link>
                         )}
-                        <Button 
-                          variant="outline" 
+                        <Button
+                          variant="outline"
                           className="w-full justify-start"
                           onClick={() => {
                             signOut();

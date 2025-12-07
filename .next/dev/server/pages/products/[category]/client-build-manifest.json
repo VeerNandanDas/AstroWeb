@@ -1,0 +1,5 @@
+{
+  "/products/[category]": [
+    "static/chunks/pages/products/[category].js"
+  ]
+}
