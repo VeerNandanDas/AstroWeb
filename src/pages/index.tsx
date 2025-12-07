@@ -146,21 +146,65 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Smooth Transition Section */}
+        <div className="h-32 bg-gradient-to-b from-purple-900/85 via-purple-800/40 to-background"></div>
+
         {/* Features Section */}
-        <section className="py-16 lg:py-24 bg-background">
+        <section className="py-16 lg:py-24 bg-background relative">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-              {features.map((feature, index) => (
-                <Card key={index} className="border-none shadow-lg hover-elevate active-elevate-2 transition-all duration-300">
-                  <CardContent className="p-8 text-center">
-                    <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center">
-                      <feature.icon className="h-8 w-8 text-accent" />
+              {/* Card 1 - Purple/Lavender */}
+              <div className="group perspective-1000">
+                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-purple-200 to-purple-300 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:rotate-1 overflow-hidden">
+                  <div className="absolute top-4 right-4 w-12 h-12 rounded-full bg-white/40 flex items-center justify-center">
+                    <Shield className="h-6 w-6 text-purple-700" />
+                  </div>
+                  <div className="absolute -bottom-4 -left-4 w-24 h-24 rounded-full bg-purple-400/30"></div>
+                  <div className="absolute top-1/2 right-8 w-16 h-16">
+                    <div className="w-full h-full rounded-full border-4 border-purple-400/40"></div>
+                  </div>
+                  <div className="relative z-10 mt-12">
+                    <h3 className="font-serif text-2xl font-bold mb-3 text-purple-900">100%<br /><span className="italic">Authentic</span></h3>
+                    <p className="text-purple-800 text-sm leading-relaxed">All products certified and verified by expert astrologers</p>
+                  </div>
+                </div>
+              </div>
+              {/* Card 2 - Deep Purple/Blue */}
+              <div className="group perspective-1000">
+                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-indigo-500 to-purple-600 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:-rotate-1 overflow-hidden">
+                  <div className="absolute top-4 right-4 w-12 h-12 rounded-full bg-white/30 flex items-center justify-center">
+                    <Award className="h-6 w-6 text-white" />
+                  </div>
+                  <div className="absolute top-8 left-6 w-20 h-20">
+                    <div className="absolute inset-0 rounded-full bg-white/10"></div>
+                    <div className="absolute inset-2 rounded-full bg-white/10"></div>
+                    <div className="absolute inset-4 rounded-full bg-white/10"></div>
+                  </div>
+                  <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-purple-700/30"></div>
+                  <div className="relative z-10 mt-12">
+                    <h3 className="font-serif text-2xl font-bold mb-3 text-white">Premium<br /><span className="italic">Quality</span></h3>
+                    <p className="text-white/90 text-sm leading-relaxed">Sourced from trusted suppliers with quality assurance</p>
+                  </div>
+                </div>
+              </div>
+              {/* Card 3 - Yellow/Orange */}
+              <div className="group perspective-1000">
+                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-amber-200 to-yellow-300 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:rotate-1 overflow-hidden">
+                  <div className="absolute top-4 right-4 w-12 h-12 rounded-full bg-white/40 flex items-center justify-center">
+                    <TrendingUp className="h-6 w-6 text-amber-700" />
+                  </div>
+                  <div className="absolute top-12 left-8">
+                    <div className="grid grid-cols-3 gap-1">
+                      {[...Array(9)].map((_, i) => <div key={i} className="w-2 h-2 rounded-full bg-amber-400/40"></div>)}
                     </div>
-                    <h3 className="font-serif text-xl font-semibold mb-2">{feature.title}</h3>
-                    <p className="text-muted-foreground">{feature.description}</p>
-                  </CardContent>
-                </Card>
-              ))}
+                  </div>
+                  <div className="absolute -bottom-8 -right-8 w-32 h-32 rounded-3xl bg-yellow-400/30 transform rotate-45"></div>
+                  <div className="relative z-10 mt-12">
+                    <h3 className="font-serif text-2xl font-bold mb-3 text-amber-900">Proven<br /><span className="italic">Results</span></h3>
+                    <p className="text-amber-800 text-sm leading-relaxed">Thousands of satisfied customers with life transformations</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
