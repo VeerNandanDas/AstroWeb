@@ -6,23 +6,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { ShoppingBag, Trash2, Plus, Minus, ArrowRight } from "lucide-react";
 
+interface CartItem {
+  id: string;
+  name: string;
+  price: number;
+  quantity: number;
+  image: string;
+}
+
 export default function Cart() {
-  const [cartItems, setCartItems] = useState([
-    {
-      id: "1",
-      name: "Blue Sapphire (Neelam) - 5 Carat",
-      price: 25000,
-      quantity: 1,
-      image: "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=200&h=200&fit=crop"
-    },
-    {
-      id: "2",
-      name: "Rudraksha Mala - 108 Beads",
-      price: 3500,
-      quantity: 2,
-      image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=200&h=200&fit=crop"
-    }
-  ]);
+  const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   const updateQuantity = (id: string, delta: number) => {
     setCartItems(items =>
