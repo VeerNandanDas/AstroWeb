@@ -68,7 +68,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
         if (error) {
             console.error("Error adding video:", error);
-            return res.status(500).json({ error: "Failed to add video" });
+            return res.status(500).json({ error: error.message || "Failed to add video", details: error });
+            // return res.status(500).json({ error: "Failed to add video" });
         }
 
         return res.status(201).json({
