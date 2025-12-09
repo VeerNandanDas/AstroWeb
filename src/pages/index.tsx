@@ -62,7 +62,7 @@ export default function Home() {
     {
       name: "Remedies",
       href: "/products/remedies",
-      image: "/dharma-4898937_640_1764074806576.webp",
+      image: "/astro-remedies-for-all-sun-signs-2025-1733308932583.jpg",
       description: "Spiritual remedy products"
     }
   ];
