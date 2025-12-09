@@ -314,28 +314,28 @@ export default function AdminDashboard() {
                     <div>
                         <h2 className="font-serif text-2xl font-bold mb-6">Quick Actions</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                            <Link href="/admin/appointments/new">
+                            <Link href="/admin/appointments">
                                 <Button className="w-full" size="lg">
                                     <Calendar className="h-4 w-4 mr-2" />
-                                    New Appointment
+                                    View Appointments
                                 </Button>
                             </Link>
-                            <Link href="/admin/products/new">
+                            <Link href="/admin/products">
                                 <Button className="w-full" size="lg" variant="outline">
                                     <Package className="h-4 w-4 mr-2" />
-                                    Add Product
+                                    Manage Products
                                 </Button>
                             </Link>
-                            <Link href="/admin/blogs/new">
+                            <Link href="/admin/blogs">
                                 <Button className="w-full" size="lg" variant="outline">
                                     <FileText className="h-4 w-4 mr-2" />
-                                    Write Blog Post
+                                    Manage Blogs
                                 </Button>
                             </Link>
-                            <Link href="/admin/videos/new">
+                            <Link href="/admin/videos">
                                 <Button className="w-full" size="lg" variant="outline">
                                     <Video className="h-4 w-4 mr-2" />
-                                    Add Video
+                                    Manage Videos
                                 </Button>
                             </Link>
                         </div>
