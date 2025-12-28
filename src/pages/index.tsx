@@ -472,19 +472,6 @@ export default function Home() {
                       </div>
                     )}
 
-                    {/* Inauspicious Days */}
-                    {muhurat.inauspiciousDays && (
-                      <div className="bg-red-50 rounded-xl p-6 border border-red-100">
-                        <h3 className="font-serif text-xl font-bold text-red-800 mb-3 flex items-center gap-2">
-                          <span className="bg-red-100 p-2 rounded-lg text-red-600"><XCircle className="h-5 w-5" /></span>
-                          Inauspicious Days (शुभ कार्य वर्जित दिन)
-                        </h3>
-                        <p className="text-red-800 font-medium">
-                          {muhurat.inauspiciousDays}
-                        </p>
-                      </div>
-                    )}
-
                     {/* Note */}
                     {muhurat.note && (
                       <div className="bg-muted/50 rounded-lg p-4 text-sm text-muted-foreground italic border-l-4 border-accent">
