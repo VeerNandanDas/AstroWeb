@@ -1,0 +1,5 @@
+{
+  "/admin/videos": [
+    "static/chunks/pages/admin/videos.js"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "/admin/horoscopes": [
+    "static/chunks/pages/admin/horoscopes.js"
+  ]
+}

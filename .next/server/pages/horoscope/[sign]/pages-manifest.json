@@ -1,0 +1,3 @@
+{
+  "/horoscope/[sign]": "pages/horoscope/[sign].js"
+}

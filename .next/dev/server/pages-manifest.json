@@ -1,0 +1,20 @@
+{
+  "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.js",
+  "/admin": "pages/admin.js",
+  "/admin/horoscopes": "pages/admin/horoscopes.js",
+  "/admin/muhurat": "pages/admin/muhurat.js",
+  "/api/appointments": "pages/api/appointments.js",
+  "/api/blog": "pages/api/blog.js",
+  "/api/horoscope": "pages/api/horoscope.js",
+  "/api/muhurat": "pages/api/muhurat.js",
+  "/api/testimonials": "pages/api/testimonials.js",
+  "/api/users": "pages/api/users.js",
+  "/blog": "pages/blog.js",
+  "/book-appointment": "pages/book-appointment.js",
+  "/contact": "pages/contact.js",
+  "/login": "pages/login.js",
+  "/profile": "pages/profile.js"
+}
