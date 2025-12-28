@@ -2,33 +2,6 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
-  "/about": [
-    "static/chunks/pages/about.js"
-  ],
-  "/admin": [
-    "static/chunks/pages/admin.js"
-  ],
-  "/admin/horoscopes": [
-    "static/chunks/pages/admin/horoscopes.js"
-  ],
-  "/admin/muhurat": [
-    "static/chunks/pages/admin/muhurat.js"
-  ],
-  "/blog": [
-    "static/chunks/pages/blog.js"
-  ],
-  "/book-appointment": [
-    "static/chunks/pages/book-appointment.js"
-  ],
-  "/contact": [
-    "static/chunks/pages/contact.js"
-  ],
-  "/login": [
-    "static/chunks/pages/login.js"
-  ],
-  "/profile": [
-    "static/chunks/pages/profile.js"
-  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],

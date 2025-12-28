@@ -396,38 +396,38 @@ export default function Home() {
         </section>
 
         {/* Monthly Muhurat (Auspicious Days) Section */}
-        <section className="py-16 lg:py-24 bg-gradient-to-br from-amber-50 to-orange-50">
+        <section className="py-16 lg:py-24 bg-background">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-12">
               <div className="flex items-center justify-center gap-3 mb-4">
-                <Sunrise className="h-8 w-8 text-amber-600" />
-                <h2 className="font-serif text-3xl md:text-4xl font-bold text-amber-900">
+                <Sunrise className="h-8 w-8 text-accent" />
+                <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground">
                   Auspicious Muhurat for {muhurat?.monthName || "This Month"}
                 </h2>
-                <Sunrise className="h-8 w-8 text-amber-600" />
+                <Sunrise className="h-8 w-8 text-accent" />
               </div>
-              <p className="text-amber-800 text-lg max-w-2xl mx-auto">
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                 Plan your important events with our auspicious timing guide
               </p>
             </div>
 
             {isLoadingMuhurat ? (
               <div className="text-center py-12">
-                <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-amber-600"></div>
-                <p className="mt-4 text-amber-700">Loading muhurat data...</p>
+                <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-accent"></div>
+                <p className="mt-4 text-muted-foreground">Loading muhurat data...</p>
               </div>
             ) : muhurat ? (
               <div className="max-w-4xl mx-auto">
-                <Card className="bg-gradient-to-br from-white to-amber-50 border-amber-200 shadow-xl overflow-hidden">
+                <Card className="bg-card border-border/50 shadow-xl overflow-hidden">
                   <CardContent className="p-8 space-y-8">
                     {/* Vehicle Purchase */}
                     {muhurat.vehiclePurchase && (
-                      <div className="border-b border-amber-100 pb-6 last:border-0 last:pb-0">
-                        <h3 className="font-serif text-xl font-bold text-amber-800 mb-3 flex items-center gap-2">
-                          <span className="bg-amber-100 p-2 rounded-lg text-amber-600"><Settings className="h-5 w-5" /></span>
+                      <div className="border-b border-border/50 pb-6 last:border-0 last:pb-0">
+                        <h3 className="font-serif text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+                          <span className="bg-accent/10 p-2 rounded-lg text-accent"><Settings className="h-5 w-5" /></span>
                           Vehicle Purchase (वाहन खरीद)
                         </h3>
-                        <p className="text-amber-900/80 leading-relaxed whitespace-pre-line font-medium pl-12">
+                        <p className="text-foreground/80 leading-relaxed whitespace-pre-line font-medium pl-12">
                           {muhurat.vehiclePurchase}
                         </p>
                       </div>
@@ -435,12 +435,12 @@ export default function Home() {
 
                     {/* Miscellaneous Purchase */}
                     {muhurat.miscellaneousPurchase && (
-                      <div className="border-b border-amber-100 pb-6 last:border-0 last:pb-0">
-                        <h3 className="font-serif text-xl font-bold text-amber-800 mb-3 flex items-center gap-2">
-                          <span className="bg-amber-100 p-2 rounded-lg text-amber-600"><ShoppingBag className="h-5 w-5" /></span>
+                      <div className="border-b border-border/50 pb-6 last:border-0 last:pb-0">
+                        <h3 className="font-serif text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+                          <span className="bg-accent/10 p-2 rounded-lg text-accent"><ShoppingBag className="h-5 w-5" /></span>
                           Miscellaneous (Jewelry, etc.) Purchase
                         </h3>
-                        <p className="text-amber-900/80 leading-relaxed whitespace-pre-line font-medium pl-12">
+                        <p className="text-foreground/80 leading-relaxed whitespace-pre-line font-medium pl-12">
                           {muhurat.miscellaneousPurchase}
                         </p>
                       </div>
@@ -448,12 +448,12 @@ export default function Home() {
 
                     {/* New Home */}
                     {muhurat.newHome && (
-                      <div className="border-b border-amber-100 pb-6 last:border-0 last:pb-0">
-                        <h3 className="font-serif text-xl font-bold text-amber-800 mb-3 flex items-center gap-2">
-                          <span className="bg-amber-100 p-2 rounded-lg text-amber-600"><HomeIcon className="h-5 w-5" /></span>
+                      <div className="border-b border-border/50 pb-6 last:border-0 last:pb-0">
+                        <h3 className="font-serif text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+                          <span className="bg-accent/10 p-2 rounded-lg text-accent"><HomeIcon className="h-5 w-5" /></span>
                           Move to a New Home (गृह प्रवेश)
                         </h3>
-                        <p className="text-amber-900/80 leading-relaxed whitespace-pre-line font-medium pl-12">
+                        <p className="text-foreground/80 leading-relaxed whitespace-pre-line font-medium pl-12">
                           {muhurat.newHome}
                         </p>
                       </div>
@@ -487,7 +487,7 @@ export default function Home() {
 
                     {/* Note */}
                     {muhurat.note && (
-                      <div className="bg-amber-100/50 rounded-lg p-4 text-sm text-amber-800/80 italic border-l-4 border-amber-400">
+                      <div className="bg-muted/50 rounded-lg p-4 text-sm text-muted-foreground italic border-l-4 border-accent">
                         <strong>Note:</strong> {muhurat.note}
                       </div>
                     )}
@@ -496,7 +496,7 @@ export default function Home() {
               </div>
             ) : (
               <div className="text-center py-12">
-                <p className="text-amber-700 text-lg">No muhurat data available for this month. Check back later!</p>
+                <p className="text-muted-foreground text-lg">No muhurat data available for this month. Check back later!</p>
               </div>
             )}
           </div>
