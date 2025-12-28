@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Award, Users, Star, Heart, Sparkles, scroll, X } from "lucide-react";
+import { Award, Users, Star, Heart, Sparkles, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
