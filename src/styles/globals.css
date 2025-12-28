@@ -243,8 +243,19 @@
 
   .hover-elevate[class*="border"]:not(.no-hover-interaction-elevate)::after,
   .active-elevate[class*="border"]:not(.no-active-interaction-elevate)::after,
+
   .hover-elevate-2[class*="border"]:not(.no-hover-interaction-elevate)::after,
   .active-elevate-2[class*="border"]:not(.no-active-interaction-elevate)::after {
     inset: -1px;
+  }
+
+  @keyframes dynamic-glow {
+    0% { box-shadow: 0 0 5px rgba(168, 85, 247, 0.2); border-color: rgba(168, 85, 247, 0.3); }
+    50% { box-shadow: 0 0 20px rgba(168, 85, 247, 0.6); border-color: rgba(168, 85, 247, 0.8); }
+    100% { box-shadow: 0 0 5px rgba(168, 85, 247, 0.2); border-color: rgba(168, 85, 247, 0.3); }
+  }
+
+  .animate-glow {
+    animation: dynamic-glow 3s ease-in-out infinite;
   }
 }

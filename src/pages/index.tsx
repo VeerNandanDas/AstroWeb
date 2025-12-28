@@ -223,7 +223,7 @@ export default function Home() {
           <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 max-w-4xl mx-auto leading-tight">
-              Decode Your <span className="text-accent">Prārabdha</span>. <br />
+              Decode Your <span className="text-accent">Prārabdha to</span> <br />
               Engineer Your <span className="text-accent">Karma</span>
             </h1>
 
@@ -239,7 +239,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/book-appointment">
-                <Button size="lg" variant="outline" className="border-primary-foreground/30 bg-primary-foreground/10 text-primary-foreground hover:bg-primary-foreground/20 backdrop-blur-sm min-w-[200px]">
+                <Button size="lg" variant="outline" className="border-accent/50 bg-accent/10 text-primary-foreground hover:bg-accent hover:text-accent-foreground backdrop-blur-md min-w-[200px] animate-glow transition-all duration-500">
                   Book Consultation
                 </Button>
               </Link>
