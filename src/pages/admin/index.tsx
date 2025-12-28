@@ -137,12 +137,11 @@ export default function AdminDashboard() {
 
     const adminSections = [
         {
-            title: "Appointments",
-            description: "Manage consultation bookings",
-            icon: Calendar,
-            href: "/admin/appointments",
-            count: stats.totalAppointments,
-            pending: stats.pendingAppointments,
+            title: "Panchang",
+            description: "Manage daily panchang details",
+            icon: Clock,
+            href: "/admin/panchang",
+            count: 0,
             color: "from-blue-500 to-cyan-500",
         },
         {
@@ -215,16 +214,14 @@ export default function AdminDashboard() {
                             <CardContent className="p-6">
                                 <div className="flex items-center justify-between">
                                     <div>
-                                        <p className="text-sm text-muted-foreground mb-1">Total Appointments</p>
-                                        <p className="text-3xl font-bold text-blue-600">{stats.totalAppointments}</p>
-                                        {stats.pendingAppointments > 0 && (
-                                            <Badge variant="secondary" className="mt-2 bg-yellow-100 text-yellow-800">
-                                                <Clock className="h-3 w-3 mr-1" />
-                                                {stats.pendingAppointments} pending
-                                            </Badge>
-                                        )}
+                                        <p className="text-sm text-muted-foreground mb-1">Panchang Updates</p>
+                                        <p className="text-3xl font-bold text-blue-600">Daily</p>
+                                        <Badge variant="secondary" className="mt-2 bg-blue-100 text-blue-800">
+                                            <CheckCircle className="h-3 w-3 mr-1" />
+                                            Active
+                                        </Badge>
                                     </div>
-                                    <Calendar className="h-12 w-12 text-blue-500 opacity-50" />
+                                    <Clock className="h-12 w-12 text-blue-500 opacity-50" />
                                 </div>
                             </CardContent>
                         </Card>
@@ -292,18 +289,10 @@ export default function AdminDashboard() {
                                             <CardDescription>{section.description}</CardDescription>
                                         </CardHeader>
                                         <CardContent>
-                                            {section.pending !== undefined && section.pending > 0 && (
-                                                <div className="flex items-center gap-2 text-sm text-amber-600">
-                                                    <Clock className="h-4 w-4" />
-                                                    {section.pending} pending review
-                                                </div>
-                                            )}
-                                            {section.pending === undefined && (
-                                                <div className="flex items-center gap-2 text-sm text-green-600">
-                                                    <CheckCircle className="h-4 w-4" />
-                                                    All up to date
-                                                </div>
-                                            )}
+                                            <div className="flex items-center gap-2 text-sm text-green-600">
+                                                <CheckCircle className="h-4 w-4" />
+                                                All up to date
+                                            </div>
                                         </CardContent>
                                     </Card>
                                 </Link>
@@ -315,10 +304,10 @@ export default function AdminDashboard() {
                     <div>
                         <h2 className="font-serif text-2xl font-bold mb-6">Quick Actions</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                            <Link href="/admin/appointments">
+                            <Link href="/admin/panchang">
                                 <Button className="w-full" size="lg">
-                                    <Calendar className="h-4 w-4 mr-2" />
-                                    View Appointments
+                                    <Clock className="h-4 w-4 mr-2" />
+                                    Manage Panchang
                                 </Button>
                             </Link>
                             <Link href="/admin/products">

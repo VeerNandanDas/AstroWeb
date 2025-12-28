@@ -106,6 +106,31 @@ export default function Home() {
     fetchMuhurat();
   }, []);
 
+  // State for panchang data
+  const [panchang, setPanchang] = useState<any>(null);
+  const [isLoadingPanchang, setIsLoadingPanchang] = useState(true);
+
+  // Fetch daily panchang data from API
+  useEffect(() => {
+    const fetchPanchang = async () => {
+      try {
+        const today = new Date().toISOString().split('T')[0];
+        const response = await fetch(`/api/panchang?date=${today}`);
+
+        if (response.ok) {
+          const data = await response.json();
+          setPanchang(data);
+        }
+      } catch (error) {
+        console.error("Error fetching panchang:", error);
+      } finally {
+        setIsLoadingPanchang(false);
+      }
+    };
+
+    fetchPanchang();
+  }, []);
+
   const features = [
     {
       icon: Shield,
@@ -392,6 +417,55 @@ export default function Home() {
                 ))
               )}
             </div>
+          </div>
+        </section>
+
+        {/* Daily Panchang Section */}
+        <section className="py-16 lg:py-24 bg-muted/30">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="text-center mb-12">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <Clock className="h-8 w-8 text-accent" />
+                <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground">
+                  Today's Panchang
+                </h2>
+                <Clock className="h-8 w-8 text-accent" />
+              </div>
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                Daily astrological insights for {new Date().toLocaleDateString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
+              </p>
+            </div>
+
+            {isLoadingPanchang ? (
+              <div className="text-center py-12">
+                <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-accent"></div>
+                <p className="mt-4 text-muted-foreground">Loading panchang data...</p>
+              </div>
+            ) : panchang ? (
+              <div className="max-w-4xl mx-auto">
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                  {[
+                    { label: "Tithi", value: panchang.tithi, sub: "तिथि" },
+                    { label: "Vaar", value: panchang.vaar, sub: "वार" },
+                    { label: "Nakshatra", value: panchang.nakshatr, sub: "नक्षत्र" },
+                    { label: "Yoga", value: panchang.yoga, sub: "योग" },
+                    { label: "Karan", value: panchang.karan, sub: "करण" }
+                  ].map((item, idx) => (
+                    <Card key={idx} className="bg-card border-border/50 shadow-sm hover:shadow-md transition-shadow">
+                      <CardContent className="p-4 text-center">
+                        <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">{item.label}</p>
+                        <p className="font-serif text-lg font-bold text-accent">{item.value || "—"}</p>
+                        <p className="text-[10px] text-muted-foreground mt-1">{item.sub}</p>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <div className="text-center py-12">
+                <p className="text-muted-foreground text-lg">Daily panchang not updated for today yet. Check back later!</p>
+              </div>
+            )}
           </div>
         </section>
 
