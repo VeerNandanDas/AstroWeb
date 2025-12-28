@@ -433,19 +433,6 @@ export default function Home() {
                       </div>
                     )}
 
-                    {/* Miscellaneous Purchase */}
-                    {muhurat.miscellaneousPurchase && (
-                      <div className="border-b border-border/50 pb-6 last:border-0 last:pb-0">
-                        <h3 className="font-serif text-xl font-bold text-foreground mb-3 flex items-center gap-2">
-                          <span className="bg-accent/10 p-2 rounded-lg text-accent"><ShoppingBag className="h-5 w-5" /></span>
-                          Miscellaneous (Jewelry, etc.) Purchase
-                        </h3>
-                        <p className="text-foreground/80 leading-relaxed whitespace-pre-line font-medium pl-12">
-                          {muhurat.miscellaneousPurchase}
-                        </p>
-                      </div>
-                    )}
-
                     {/* New Home */}
                     {muhurat.newHome && (
                       <div className="border-b border-border/50 pb-6 last:border-0 last:pb-0">
@@ -461,12 +448,12 @@ export default function Home() {
 
                     {/* Auspicious Days */}
                     {muhurat.auspiciousDays && (
-                      <div className="bg-green-50 rounded-xl p-6 border border-green-100">
-                        <h3 className="font-serif text-xl font-bold text-green-800 mb-3 flex items-center gap-2">
-                          <span className="bg-green-100 p-2 rounded-lg text-green-600"><CheckCircle2 className="h-5 w-5" /></span>
+                      <div className="border-b border-border/50 pb-6 last:border-0 last:pb-0">
+                        <h3 className="font-serif text-xl font-bold text-foreground mb-3 flex items-center gap-2">
+                          <span className="bg-accent/10 p-2 rounded-lg text-accent"><CheckCircle2 className="h-5 w-5" /></span>
                           Auspicious days (सामान्य शुभ दिन)
                         </h3>
-                        <p className="text-green-800 font-medium">
+                        <p className="text-foreground/80 leading-relaxed whitespace-pre-line font-medium pl-12">
                           {muhurat.auspiciousDays}
                         </p>
                       </div>
