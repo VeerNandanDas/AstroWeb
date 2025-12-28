@@ -70,14 +70,13 @@ export default function SignUp() {
   return (
     <>
       <Head>
-        <title>Sign Up - Divine Astrology</title>
+        <title>Sign Up - VedicIntution</title>
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-primary/10 via-background to-accent/5 flex items-center justify-center p-4 py-20">
         <Card className="w-full max-w-md p-8 backdrop-blur-sm bg-card/80">
           <div className="text-center mb-8">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <Sparkles className="h-8 w-8 text-accent" />
-              <h1 className="font-serif text-2xl font-bold">Divine Astrology</h1>
+              <h1 className="font-serif text-2xl font-bold">VedicIntution</h1>
             </div>
             <p className="text-muted-foreground">Create Your Account</p>
           </div>

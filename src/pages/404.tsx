@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <>
       <Head>
-        <title>Page Not Found - Divine Astrology</title>
+        <title>Page Not Found - VedicIntution</title>
       </Head>
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center px-4">

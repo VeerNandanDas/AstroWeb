@@ -11,8 +11,7 @@ export function Footer() {
           {/* About */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Sparkles className="h-6 w-6 text-accent" />
-              <span className="font-serif text-xl font-bold">Divine Astrology</span>
+              <span className="font-serif text-xl font-bold">VedicIntution</span>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
               Authentic spiritual products and expert astrology consultations to guide you on your journey to wellness and enlightenment.
@@ -106,7 +105,7 @@ export function Footer() {
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center">
           <p className="text-sm text-primary-foreground/60">
-            © {new Date().getFullYear()} Divine Astrology. All rights reserved.
+            © {new Date().getFullYear()} VedicIntution. All rights reserved.
           </p>
         </div>
       </div>

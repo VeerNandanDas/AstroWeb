@@ -200,7 +200,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Divine Astrology - Premium Gemstones, Spiritual Guidance & Authentic Remedies</title>
+        <title>VedicIntution - Premium Gemstones, Spiritual Guidance & Authentic Remedies</title>
       </Head>
       <div className="min-h-screen">
         {/* Hero Section */}

@@ -40,8 +40,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" data-testid="link-home">
             <div className="flex items-center gap-2 cursor-pointer hover-elevate active-elevate-2 rounded-md px-2 -ml-2 py-1">
-              <Sparkles className="h-6 w-6 text-accent" />
-              <span className="font-serif text-xl font-bold text-foreground">Divine Astrology</span>
+              <span className="font-serif text-xl font-bold text-foreground">VedicIntution</span>
             </div>
           </Link>
 

@@ -189,7 +189,7 @@ export default function AdminDashboard() {
     return (
         <>
             <Head>
-                <title>Admin Dashboard - Divine Astrology</title>
+                <title>Admin Dashboard - VedicIntution</title>
             </Head>
 
             <div className="min-h-screen bg-background">
