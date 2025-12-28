@@ -221,19 +221,14 @@ export default function Home() {
           </div>
 
           <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
-            <Badge className="mb-6 bg-accent/20 text-accent border-accent/30">
-              <Sparkles className="h-3 w-3 mr-1" />
-              Trusted by 50,000+ Customers
-            </Badge>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 max-w-4xl mx-auto leading-tight">
-              Awaken Your Inner{" "}
-              <span className="text-accent">ज्योति</span>
-              {" "}Guide Your Destiny
+              Decode Your <span className="text-accent">Prārabdha</span>. <br />
+              Engineer Your <span className="text-accent">Karma</span>
             </h1>
 
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Discover authentic gemstones, spiritual remedies, and expert astrology consultations to guide your journey to wellness and prosperity.
+              Expert vedic Astrology & Vaastu Consultation through scientific remedies to guide your journey to holistic prosperity!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
