@@ -201,7 +201,7 @@ export default function Home() {
     {
       id: "karmic-remedial",
       name: "Astrological (Karmic) Remedial Services",
-      description: " Vedic remedies includes vastu remedies , garha anusthaan(mantra , hawan ), panch tatwa treatment and yantra therapy",
+      description: " Vedic remedies includes vaastu remedies , garha anusthaan(mantra , hawan ), panch tatwa treatment and yantra therapy",
       price: "₹20,000 + 18% GST"
     }
   ];
@@ -215,7 +215,7 @@ export default function Home() {
     const phone = (form.querySelector("#phone") as HTMLInputElement)?.value;
     const message = (form.querySelector("#message") as HTMLTextAreaElement)?.value;
 
-    const whatsappMessage = `Hello Acharya Om Saha,%0A%0AI would like to book a *${consultationType}* consultation.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Preferred Date:* ${bookingDate?.toLocaleDateString()}%0A*Preferred Time:* ${selectedTime}%0A%0A*Additional Message:* ${message || "N/A"}`;
+    const whatsappMessage = `Hello Acharya Om shah,%0A%0AI would like to book a *${consultationType}* consultation.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Preferred Date:* ${bookingDate?.toLocaleDateString()}%0A*Preferred Time:* ${selectedTime}%0A%0A*Additional Message:* ${message || "N/A"}`;
     const adminPhoneNumber = "918527530910";
     window.open(`https://wa.me/${adminPhoneNumber}?text=${whatsappMessage}`, "_blank");
   };
@@ -224,7 +224,7 @@ export default function Home() {
     {
       icon: Shield,
       title: "100% Authentic",
-      description: "All products certified and verified by expert astrologers"
+      description: "All products certified and verified by expert Astrologers"
     },
     {
       icon: Award,
@@ -371,20 +371,20 @@ export default function Home() {
               >
                 <Badge className="bg-accent/10 text-accent mb-6 px-4 py-1.5 uppercase tracking-wider font-semibold">Vedic Astrologer & Vaastu consultant</Badge>
                 <h2 className="font-serif text-5xl md:text-6xl font-bold mb-8 leading-tight">
-                  Acharya <span className="text-accent italic">Om Saha</span>
+                  Acharya <span className="text-accent italic">Om shah</span>
                 </h2>
 
                 <div className="space-y-8 text-lg text-muted-foreground leading-relaxed">
                   <p className="border-l-4 border-accent/30 pl-6 py-2">
-                    <span className="font-bold text-foreground">Acharya Om Saha</span> is a <span className="text-[#D4AF37] font-extrabold underline decoration-accent/20">gold medalist</span> astrologer from K.N.Rao Institute of Astrology, Bharati Vidya Bhavan, New Delhi.
+                    <span className="font-bold text-foreground">Acharya Om shah</span> is a <span className="text-[#D4AF37] font-extrabold underline decoration-accent/20">gold medalist</span> Astrologer from K.N.Rao Institute of Astrology, Bharati Vidya Bhavan, New Delhi.
                   </p>
 
                   <p>
-                    He also holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and Diploma in <span className="text-foreground font-medium">Vastu Shastra</span> and <span className="text-foreground font-medium">Medical Astrology</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
+                    He also holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and Diploma in <span className="text-foreground font-medium">vaastu Shastra</span> and <span className="text-foreground font-medium">Medical Astrology</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
                   </p>
 
                   <p className="bg-muted/30 p-6 rounded-xl border border-muted shadow-sm text-base">
-                    Acharya Saha is an ex-microbiologist, <span className="text-foreground font-bold">M.Sc (Microbiology)</span>, and <span className="text-foreground font-bold">Pre-PhD (Molecular Medicine)</span>. With over 6 years of experience in Vedic Astrology and Vastu Shastra, he brings remarkable changes in one's life using his astrological predictions, Vastu, and karmic remedies.
+                    Acharya shah is an ex-microbiologist, <span className="text-foreground font-bold">M.Sc (Microbiology)</span>, and <span className="text-foreground font-bold">Pre-PhD (Molecular Medicine)</span>. With over 6 years of experience in Vedic Astrology and Vaastu Shastra, he brings remarkable changes in one's life using his astrological predictions, vaastu, and karmic remedies.
                   </p>
                 </div>
               </motion.div>
@@ -433,7 +433,7 @@ export default function Home() {
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="font-serif text-4xl font-bold mb-4">Book Your Consultation</h2>
-              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Get personalized astrology guidance from our expert astrologers</p>
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Get personalized astrology guidance from our expert Astrologers</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -447,7 +447,7 @@ export default function Home() {
                       </Avatar>
                     </div>
                     <div>
-                      <h3 className="font-serif text-2xl font-bold">Acharya Om Saha</h3>
+                      <h3 className="font-serif text-2xl font-bold">Acharya Om shah</h3>
                       <p className="text-accent font-medium text-sm">Astro & Vaastu Consultant</p>
                       <p className="text-muted-foreground text-xs italic">(Karmic Consultant)</p>
                     </div>
