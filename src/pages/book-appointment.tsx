@@ -383,7 +383,7 @@ export default function BookAppointment() {
                       <Award className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                       <div>
                         <p className="font-semibold text-sm">Email</p>
-                        <p className="text-xs text-muted-foreground break-all">Aacharyaomshah@gmail.com</p>
+                        <p className="text-xs text-muted-foreground break-all">acharyaomshah@gmail.com</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
