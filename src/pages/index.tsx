@@ -466,17 +466,17 @@ export default function Home() {
                     </div>
 
                     <div className="space-y-3 text-[11px] text-muted-foreground border-t pt-4 text-left">
-                      <p className="flex items-start gap-2">
-                        <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Aacharya</Badge>
-                        <span>Jyotish, BVB-Delhi (Gold Medal)</span>
+                      <p className="flex items-start gap-3">
+                        <Badge variant="outline" className="w-[60px] h-4 px-0 justify-center text-[9px] uppercase flex-shrink-0">Acharya</Badge>
+                        <span className="flex-1">Jyotish, BVB-Delhi (Gold Medal)</span>
                       </p>
-                      <p className="flex items-start gap-2">
-                        <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Diploma</Badge>
-                        <span>Medical Astrology, Vaastu Shastra & Palmistry</span>
+                      <p className="flex items-start gap-3">
+                        <Badge variant="outline" className="w-[60px] h-4 px-0 justify-center text-[9px] uppercase flex-shrink-0">Diploma</Badge>
+                        <span className="flex-1">Medical Astrology, Vaastu Shastra & Palmistry</span>
                       </p>
-                      <p className="flex items-start gap-2">
-                        <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Academic</Badge>
-                        <span>M.A.(Astrology) <br></br> M.Sc.(Microbiology), Pre-PhD (Molecular Medicine)</span>
+                      <p className="flex items-start gap-3">
+                        <Badge variant="outline" className="w-[60px] h-4 px-0 justify-center text-[9px] uppercase flex-shrink-0">Academic</Badge>
+                        <span className="flex-1">M.A.(Astrology) <br /> M.Sc.(Microbiology), Pre-PhD (Molecular Medicine)</span>
                       </p>
                     </div>
 

@@ -1,6 +1,6 @@
-[00:00:01.032] Server  LOG      ✓ Ready in 673ms
-[00:00:10.183] Server  LOG      ○ Compiling / ...
-[00:00:17.963] Browser ERROR   Warning: Expected server HTML to contain a matching <%s> in <%s>.%s div p 
+[00:00:01.006] Server  LOG      ✓ Ready in 668ms
+[00:00:05.143] Server  LOG      ○ Compiling / ...
+[00:00:12.463] Browser ERROR   Warning: Expected server HTML to contain a matching <%s> in <%s>.%s div p 
     at div
     at Badge (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__74da4e12._.js:691:18)
     at p
@@ -28,9 +28,9 @@
     at Container (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
-[00:00:17.963] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <div> p 
+[00:00:12.463] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.463] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
+[00:00:12.463] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <div> p 
     at div
     at Badge (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__74da4e12._.js:691:18)
     at p
@@ -58,30 +58,27 @@
     at Container (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:17.963] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.
-[00:01:22.984] Server  LOG      ✓ Compiled in 270ms
-[00:01:27.605] Server  LOG      ✓ Compiled in 216ms
-[00:01:31.677] Server  LOG      ✓ Compiled in 187ms
-[00:01:34.567] Server  LOG      ✓ Compiled in 283ms
-[00:01:38.261] Server  LOG      ✓ Compiled in 264ms
-[00:01:53.164] Server  LOG      ✓ Compiled in 349ms
-[00:02:37.346] Server  LOG      ✓ Compiled in 375ms
-[00:03:13.052] Browser ERROR   Warning: Expected server HTML to contain a matching <%s> in <%s>.%s div p 
+[00:00:12.463] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.463] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.463] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:12.464] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.
+[00:01:32.343] Server  LOG      ✓ Compiled in 368ms
+[00:01:36.391] Server  LOG      ✓ Compiled in 237ms
+[00:01:54.601] Server  LOG      ✓ Compiled in 415ms
+[00:02:16.475] Server  LOG      ✓ Compiled in 456ms
+[00:03:34.638] Browser ERROR   Warning: Expected server HTML to contain a matching <%s> in <%s>.%s div p 
     at div
     at Badge (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__74da4e12._.js:691:18)
     at p
@@ -109,9 +106,9 @@
     at Container (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
-[00:03:13.052] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <div> p 
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
+[00:03:34.638] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <div> p 
     at div
     at Badge (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__74da4e12._.js:691:18)
     at p
@@ -139,19 +136,20 @@
     at Container (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
     at AppContainer (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
     at Root (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:03:13.052] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:03:34.638] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.
+[00:04:00.836] Server  LOG      ✓ Compiled in 369ms
