@@ -827,7 +827,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="text-xs opacity-70">Email</p>
-                      <p className="font-bold">Aacharyaomshah@gmail.com</p>
+                      <p className="font-bold">acharyaomshah@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
