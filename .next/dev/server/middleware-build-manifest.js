@@ -1,7 +1,7 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
-      "static/chunks/[root-of-the-server]__2c8cf1ac._.js",
+      "static/chunks/[root-of-the-server]__79db1bd0._.js",
       "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
       "static/chunks/70d72_next_dist_shared_lib_85a0c1dd._.js",
       "static/chunks/70d72_next_dist_client_02e29845._.js",
@@ -10,9 +10,14 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/70d72_react_a450380a._.js",
       "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
       "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_20f83e57._.js",
+      "static/chunks/70d72_framer-motion_dist_es_61af5a35._.js",
+      "static/chunks/70d72_react-icons_si_index_mjs_10012f8b._.js",
+      "static/chunks/70d72_react-icons_lib_a8742000._.js",
+      "static/chunks/70d72_date-fns_b2eadce0._.js",
+      "static/chunks/70d72_react-day-picker_dist_index_esm_ab6c8c8d.js",
+      "static/chunks/70d72_05943528._.js",
       "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_f57e1f39._.js"
+      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_38c357ac._.js"
     ],
     "/_app": [
       "static/chunks/[root-of-the-server]__421ccec1._.js",
@@ -32,52 +37,24 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__app_2da965e7._.js",
       "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__app_358ab2fe._.js"
     ],
-    "/blog": [
-      "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
-      "static/chunks/70d72_next_dist_shared_lib_85a0c1dd._.js",
-      "static/chunks/70d72_next_dist_client_02e29845._.js",
-      "static/chunks/70d72_next_dist_b2895175._.js",
-      "static/chunks/70d72_next_800770b1._.js",
-      "static/chunks/70d72_react_a450380a._.js",
-      "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
-      "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_085e8acd._.js",
-      "static/chunks/[root-of-the-server]__b1a54e8f._.js",
-      "static/chunks/65f12_roWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_blog_index_tsx_2da965e7._.js",
-      "static/chunks/03d10_roWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_blog_index_tsx_96c698e3._.js"
-    ],
-    "/contact": [
-      "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
-      "static/chunks/70d72_next_dist_shared_lib_d9a23cd9._.js",
-      "static/chunks/70d72_next_dist_client_f2e01bce._.js",
-      "static/chunks/70d72_next_dist_b2895175._.js",
-      "static/chunks/70d72_next_head_421bef7b.js",
-      "static/chunks/70d72_react_a450380a._.js",
-      "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
-      "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_react-icons_si_index_mjs_10012f8b._.js",
-      "static/chunks/70d72_react-icons_lib_a8742000._.js",
-      "static/chunks/70d72_8f6cd56f._.js",
-      "static/chunks/[root-of-the-server]__5a04cd69._.js",
-      "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_contact_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_contact_6b6dab49._.js"
-    ],
-    "/videos": [
+    "/book-appointment": [
+      "static/chunks/[root-of-the-server]__78af536f._.js",
       "static/chunks/70d72_next_dist_compiled_33a0d851._.js",
       "static/chunks/70d72_next_dist_shared_lib_d9a23cd9._.js",
       "static/chunks/70d72_next_dist_client_f2e01bce._.js",
       "static/chunks/70d72_next_dist_b2895175._.js",
-      "static/chunks/70d72_next_head_421bef7b.js",
+      "static/chunks/70d72_next_9430b3ec._.js",
       "static/chunks/70d72_react_a450380a._.js",
       "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
       "static/chunks/70d72_react-dom_daa8b4c6._.js",
+      "static/chunks/70d72_date-fns_b2eadce0._.js",
+      "static/chunks/70d72_react-day-picker_dist_index_esm_ab6c8c8d.js",
       "static/chunks/70d72_@supabase_realtime-js_dist_module_f2c3c842._.js",
       "static/chunks/70d72_@supabase_storage-js_dist_module_55637b84._.js",
       "static/chunks/70d72_@supabase_auth-js_dist_module_f073888e._.js",
-      "static/chunks/70d72_db75a3f6._.js",
-      "static/chunks/[root-of-the-server]__0d4c7c0f._.js",
-      "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_videos_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_videos_93dd4d97._.js"
+      "static/chunks/70d72_1922379b._.js",
+      "static/chunks/1ccbb_Web-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_book-appointment_2da965e7._.js",
+      "static/chunks/b4858_Web-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_book-appointment_e97f5698._.js"
     ]
   },
   "devFiles": [],

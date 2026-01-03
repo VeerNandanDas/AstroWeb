@@ -355,9 +355,9 @@ export default function Home() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="relative"
+                className="relative flex justify-center"
               >
-                <div className="aspect-[4/5] rounded-2xl overflow-hidden border-8 border-muted shadow-2xl relative">
+                <div className="max-w-md w-full aspect-[4/5] rounded-2xl overflow-hidden border-8 border-muted shadow-2xl relative">
                   <img src="/gold medal.jpeg" alt="Acharya Om Shah" className="w-full h-full object-cover" />
                   <div className="absolute bottom-6 right-6 bg-background/90 backdrop-blur-sm p-4 shadow-lg">
                     <p className="font-serif text-3xl font-bold text-accent">1st</p>
@@ -511,16 +511,16 @@ export default function Home() {
         {/* 5. Blogs Section */}
         <section className="py-24 bg-muted/30">
           <div className="container mx-auto px-4 lg:px-8">
-            <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-              <div>
-                <h2 className="font-serif text-4xl font-bold mb-4">Spiritual Insights</h2>
-                <p className="text-muted-foreground text-lg">Knowledge and wisdom for your modern lifestyle</p>
-              </div>
+            <div className="text-center mb-12">
+              <h2 className="font-serif text-4xl font-bold mb-4">Vedic Intuition Blogs</h2>
+              <p className="text-muted-foreground text-lg">Knowledge and wisdom for your modern lifestyle</p>
+            </div>
+            <BlogSection limit={3} />
+            <div className="text-center mt-12">
               <Link href="/blog">
                 <Button variant="outline" size="lg">View All Blogs</Button>
               </Link>
             </div>
-            <BlogSection limit={3} />
           </div>
         </section>
 
@@ -528,8 +528,8 @@ export default function Home() {
         <section className="py-24 bg-background">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="font-serif text-4xl font-bold mb-4">Wisdom in Motion</h2>
-              <p className="text-muted-foreground text-lg">Watch guideances and insights from Acharya Om Shah</p>
+              <h2 className="font-serif text-4xl font-bold mb-4">Vedic Intuition Videos</h2>
+              <p className="text-muted-foreground text-lg">Watch guidances and insights from Acharya Om Shah</p>
             </div>
 
             {isLoadingVideos ? (
@@ -563,88 +563,146 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 7. Horoscope, Panchang, Muhurat */}
+        {/* 7. Daily Horoscope Section */}
         <section className="py-24 bg-muted/30">
           <div className="container mx-auto px-4 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              {/* Daily Horoscope */}
-              <div>
-                <div className="flex items-center gap-3 mb-8">
-                  <Zap className="text-accent h-6 w-6" />
-                  <h2 className="font-serif text-3xl font-bold">Daily Horoscope</h2>
-                </div>
-                <div className="space-y-4 max-h-[600px] overflow-y-auto pr-4 custom-scrollbar">
-                  {horoscope.map((item, index) => (
-                    <Card key={index} className="transition-all hover:border-accent">
-                      <CardContent className="p-4 flex gap-4 items-center">
-                        <div className={`w-14 h-14 rounded-full bg-gradient-to-br ${item.color} flex items-center justify-center text-white text-2xl shadow-md`}>
-                          {item.symbol}
-                        </div>
-                        <div className="flex-1">
-                          <h4 className="font-bold text-accent">{item.sign}</h4>
-                          <p className="text-xs text-muted-foreground line-clamp-2">{item.prediction}</p>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
+            <div className="text-center mb-16">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <Zap className="text-accent h-8 w-8" />
+                <h2 className="font-serif text-4xl font-bold">Daily Horoscope</h2>
+                <Zap className="text-accent h-8 w-8" />
               </div>
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Discover what the stars have in store for you today</p>
+            </div>
 
-              {/* Panchang & Muhurat */}
-              <div className="space-y-12">
-                <div>
-                  <div className="flex items-center gap-3 mb-8">
-                    <Clock className="text-accent h-6 w-6" />
-                    <h2 className="font-serif text-3xl font-bold">Today's Panchang</h2>
-                  </div>
-                  {panchang ? (
-                    <div className="grid grid-cols-2 gap-4">
-                      {[{ l: "Tithi", v: panchang.tithi }, { l: "Vaar", v: panchang.vaar }, { l: "Nakshatra", v: panchang.nakshatr }, { l: "Yoga", v: panchang.yoga }].map((x, i) => (
-                        <Card key={i} className="bg-background">
-                          <CardContent className="p-4 text-center">
-                            <p className="text-[10px] uppercase tracking-tighter text-muted-foreground mb-1">{x.l}</p>
-                            <p className="font-serif text-lg font-bold text-accent">{x.v || "—"}</p>
-                          </CardContent>
-                        </Card>
-                      ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {horoscope.map((item, index) => (
+                <Card key={index} className="transition-all hover:border-accent hover:shadow-lg group">
+                  <CardContent className="p-6">
+                    <div className="flex flex-col items-center text-center space-y-4">
+                      <div className={`w-20 h-20 rounded-full bg-gradient-to-br ${item.color} flex items-center justify-center text-white text-4xl shadow-xl transform transition-transform group-hover:scale-110`}>
+                        {item.symbol}
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-accent text-xl mb-2">{item.sign}</h4>
+                        <p className="text-sm text-muted-foreground line-clamp-3">{item.prediction}</p>
+                      </div>
                     </div>
-                  ) : <p className="text-muted-foreground">Panchang not available</p>}
-                </div>
-
-                <div>
-                  <div className="flex items-center gap-3 mb-8">
-                    <Sunrise className="text-accent h-6 w-6" />
-                    <h2 className="font-serif text-3xl font-bold">Auspicious Muhurat</h2>
-                  </div>
-                  {muhurat ? (
-                    <Card className="bg-background">
-                      <CardContent className="p-6 space-y-4">
-                        <div className="flex items-start gap-3">
-                          <CheckCircle2 className="h-5 w-5 text-accent mt-1" />
-                          <div>
-                            <p className="text-xs text-muted-foreground uppercase font-bold">General Auspicious Days</p>
-                            <p className="text-sm font-medium">{muhurat.auspiciousDays}</p>
-                          </div>
-                        </div>
-                        {muhurat.newHome && (
-                          <div className="flex items-start gap-3">
-                            <HomeIcon className="h-5 w-5 text-accent mt-1" />
-                            <div>
-                              <p className="text-xs text-muted-foreground uppercase font-bold">Griha Pravesh</p>
-                              <p className="text-sm font-medium">{muhurat.newHome}</p>
-                            </div>
-                          </div>
-                        )}
-                      </CardContent>
-                    </Card>
-                  ) : <p className="text-muted-foreground">Muhurat not available</p>}
-                </div>
-              </div>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* 8. Contact Us Section */}
+        {/* 8. Today's Panchang Section */}
+        <section className="py-24 bg-background">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="text-center mb-16">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <Clock className="text-accent h-8 w-8" />
+                <h2 className="font-serif text-4xl font-bold">Today's Panchang</h2>
+                <Clock className="text-accent h-8 w-8" />
+              </div>
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                {new Date().toLocaleDateString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
+              </p>
+            </div>
+
+            {panchang ? (
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+                {[
+                  { l: "Tithi", v: panchang.tithi, s: "तिथि" },
+                  { l: "Vaar", v: panchang.vaar, s: "वार" },
+                  { l: "Nakshatra", v: panchang.nakshatr, s: "नक्षत्र" },
+                  { l: "Yoga", v: panchang.yoga, s: "योग" }
+                ].map((x, i) => (
+                  <Card key={i} className="bg-muted/20 border-accent/10">
+                    <CardContent className="p-8 text-center">
+                      <p className="text-xs uppercase tracking-widest text-muted-foreground mb-2">{x.l}</p>
+                      <p className="font-serif text-2xl font-bold text-accent mb-1">{x.v || "—"}</p>
+                      <p className="text-[10px] text-muted-foreground opacity-60">{x.s}</p>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            ) : (
+              <div className="text-center p-12 bg-muted/20 rounded-2xl max-w-2xl mx-auto">
+                <p className="text-muted-foreground">Panchang data not available for today.</p>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* 9. Auspicious Muhurat Section */}
+        <section className="py-24 bg-muted/30">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="text-center mb-16">
+              <div className="flex items-center justify-center gap-3 mb-4">
+                <Sunrise className="text-accent h-8 w-8" />
+                <h2 className="font-serif text-4xl font-bold">Auspicious Muhurat</h2>
+                <Sunrise className="text-accent h-8 w-8" />
+              </div>
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Plan your auspicious beginnings with divine timing</p>
+            </div>
+
+            {muhurat ? (
+              <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <Card className="bg-background">
+                  <CardContent className="p-8 space-y-6">
+                    <div className="flex items-start gap-4">
+                      <div className="p-3 bg-accent/10 rounded-xl text-accent">
+                        <CheckCircle2 className="h-6 w-6" />
+                      </div>
+                      <div>
+                        <p className="text-xs text-muted-foreground uppercase font-bold tracking-tighter mb-1">General Auspicious Days</p>
+                        <p className="text-lg font-medium leading-relaxed">{muhurat.auspiciousDays}</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {muhurat.newHome && (
+                  <Card className="bg-background">
+                    <CardContent className="p-8 space-y-6">
+                      <div className="flex items-start gap-4">
+                        <div className="p-3 bg-accent/10 rounded-xl text-accent">
+                          <HomeIcon className="h-6 w-6" />
+                        </div>
+                        <div>
+                          <p className="text-xs text-muted-foreground uppercase font-bold tracking-tighter mb-1">Griha Pravesh (New Home)</p>
+                          <p className="text-lg font-medium leading-relaxed">{muhurat.newHome}</p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                )}
+
+                {muhurat.vehiclePurchase && (
+                  <Card className="bg-background md:col-span-2">
+                    <CardContent className="p-8 space-y-6">
+                      <div className="flex items-start gap-4">
+                        <div className="p-3 bg-accent/10 rounded-xl text-accent">
+                          <Settings className="h-6 w-6" />
+                        </div>
+                        <div>
+                          <p className="text-xs text-muted-foreground uppercase font-bold tracking-tighter mb-1">Vehicle Purchase</p>
+                          <p className="text-lg font-medium leading-relaxed">{muhurat.vehiclePurchase}</p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                )}
+              </div>
+            ) : (
+              <div className="text-center p-12 bg-background/50 rounded-2xl max-w-2xl mx-auto border border-dashed border-muted-foreground/30">
+                <p className="text-muted-foreground">No auspicious muhurats listed for this month.</p>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* 10. Contact Us Section */}
         <section className="py-24 bg-background">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-6xl mx-auto shadow-2xl rounded-3xl overflow-hidden bg-muted/10 border border-muted flex flex-col lg:flex-row">
