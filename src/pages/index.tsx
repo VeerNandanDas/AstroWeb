@@ -11,7 +11,7 @@ import { BlogSection } from "@/components/BlogSection";
 import { FAQSection } from "@/components/FAQSection";
 import { motion, AnimatePresence } from "framer-motion";
 import { useQuery } from "@tanstack/react-query";
-import { Mail, Phone, MapPin, Play, ExternalLink, GraduationCap, Microscope, BookOpen, Star, Calendar as CalendarIcon } from "lucide-react";
+import { Mail, Phone, MapPin, Play, ExternalLink, GraduationCap, Microscope, BookOpen, Calendar as CalendarIcon } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
 import { toast } from "@/hooks/use-toast";
 import { Calendar } from "@/components/ui/calendar";
@@ -20,7 +20,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import { Users, Heart, X } from "lucide-react";
+import { X } from "lucide-react";
 
 export default function Home() {
   // Zodiac sign metadata (symbols and colors)
@@ -161,24 +161,6 @@ export default function Home() {
     { image: "/degree.jpeg", title: "Certified Degree", subtitle: "M.A (Astrology)", colSpan: "lg:row-span-1" },
   ];
 
-  const values = [
-    {
-      title: "Authenticity",
-      description: "Every product is certified and verified by expert gemologists and astrologers"
-    },
-    {
-      title: "Expertise",
-      description: "Over 25 years of experience in Vedic astrology and spiritual guidance"
-    },
-    {
-      title: "Quality",
-      description: "Premium products sourced from trusted suppliers worldwide"
-    },
-    {
-      title: "Care",
-      description: "Personalized attention and support for every customer's spiritual journey"
-    }
-  ];
 
   // Booking state
   const [bookingDate, setBookingDate] = useState<Date | undefined>(new Date());
@@ -447,29 +429,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Core Values Strip */}
-            <div className="bg-muted/30 p-12 rounded-3xl border border-muted">
-              <div className="text-center mb-12">
-                <h3 className="font-serif text-3xl font-bold mb-4">Values That Guide Us</h3>
-                <p className="text-muted-foreground">The principles behind our spiritual and scientific practice</p>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                {values.map((value, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    className="space-y-3 p-4 hover:bg-background rounded-2xl transition-colors duration-300"
-                  >
-                    <Star className="h-6 w-6 text-accent" />
-                    <h4 className="font-serif text-xl font-bold text-foreground">{value.title}</h4>
-                    <p className="text-muted-foreground text-sm leading-relaxed">{value.description}</p>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
           </div>
         </section>
 

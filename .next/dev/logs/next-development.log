@@ -1,22 +1,22 @@
-[00:00:01.286] Server  LOG      ✓ Ready in 844ms
-[00:00:06.723] Server  LOG      ○ Compiling / ...
-[00:00:14.118] Server  WARN     ⚠ Cross origin request detected from 192.168.63.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.315] Server  LOG      ✓ Ready in 805ms
+[00:00:06.710] Server  LOG      ○ Compiling / ...
+[00:00:14.005] Server  WARN     ⚠ Cross origin request detected from 192.168.63.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:14.947] Browser ERROR   Warning: Expected server HTML to contain a matching <%s> in <%s>.%s div p 
+[00:00:14.874] Browser ERROR   Warning: Expected server HTML to contain a matching <%s> in <%s>.%s div p 
     at div
-    at Badge (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:691:18)
+    at Badge (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js:691:18)
     at p
     at div
     at div
-    at _c8 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:622:248)
+    at _c8 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js:622:248)
     at div
-    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:578:240)
+    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js:578:240)
     at div
     at div
     at div
     at section
     at div
-    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:1528:245)
+    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js:1691:245)
     at main
     at div
     at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
@@ -30,23 +30,23 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
     at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
     at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
     at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
-[00:00:14.948] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <div> p 
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
+[00:00:14.874] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <div> p 
     at div
-    at Badge (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:691:18)
+    at Badge (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js:691:18)
     at p
     at div
     at div
-    at _c8 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:622:248)
+    at _c8 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js:622:248)
     at div
-    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:578:240)
+    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js:578:240)
     at div
     at div
     at div
     at section
     at div
-    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:1528:245)
+    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js:1691:245)
     at main
     at div
     at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
@@ -60,324 +60,19 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
     at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
     at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
     at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:00:14.948] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.
-[00:00:58.003] Server  LOG      ✓ Compiled in 410ms
-[00:11:08.139] Server  LOG      ✓ Compiled in 299ms
-[00:15:32.768] Browser ERROR   Warning: Expected server HTML to contain a matching <%s> in <%s>.%s div p 
-    at div
-    at Badge (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:691:18)
-    at p
-    at div
-    at div
-    at _c8 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:622:248)
-    at div
-    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:578:240)
-    at div
-    at div
-    at div
-    at section
-    at div
-    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:1528:245)
-    at main
-    at div
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at TooltipProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
-    at AuthProvider (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
-    at QueryClientProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
-    at App (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3235:16)
-    at PathnameContextProviderAdapter (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
-    at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
-    at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
-    at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
-[00:15:32.768] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <div> p 
-    at div
-    at Badge (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:691:18)
-    at p
-    at div
-    at div
-    at _c8 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:622:248)
-    at div
-    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:578:240)
-    at div
-    at div
-    at div
-    at section
-    at div
-    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:1528:245)
-    at main
-    at div
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at TooltipProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
-    at AuthProvider (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
-    at QueryClientProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
-    at App (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3235:16)
-    at PathnameContextProviderAdapter (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
-    at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
-    at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
-    at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:15:32.768] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.
-[00:20:20.220] Browser ERROR   uncaughtError: ReferenceError: GraduationCap is not defined
-[00:20:20.221] Browser ERROR   uncaughtError: ReferenceError: GraduationCap is not defined
-[00:20:20.221] Browser ERROR   The above error occurred in the <Home> component:
-
-    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js?id=%255Bproject%255D%252FTesting%252FAstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38%252Fsrc%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:113:245)
-    at main
-    at div
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at TooltipProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
-    at AuthProvider (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
-    at QueryClientProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
-    at App (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3235:16)
-    at PathnameContextProviderAdapter (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
-    at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
-    at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
-    at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:20:20.527] Server  LOG      ✓ Compiled in 493ms
-[00:20:55.285] Server  ERROR   D:\Testing\AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38\.next\dev\server\chunks\ssr\[root-of-the-server]__da22d05c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:20:55.299] Server  ERROR   ReferenceError: GraduationCap is not defined
-[00:20:55.304] Server  ERROR   D:\Testing\AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38\.next\dev\server\chunks\ssr\[root-of-the-server]__da22d05c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:20:55.306] Server  ERROR    ⨯ ReferenceError: GraduationCap is not defined
-[00:20:55.309] Server  ERROR   D:\Testing\AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38\.next\dev\server\chunks\ssr\[root-of-the-server]__da22d05c._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:20:55.312] Server  ERROR    ⨯ ReferenceError: GraduationCap is not defined
-[00:20:56.191] Browser ERROR   uncaughtError: ReferenceError: GraduationCap is not defined
-[00:21:32.518] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:21:32.846] Server  LOG      ✓ Compiled in 308ms
-[00:21:34.239] Browser ERROR   Warning: Expected server HTML to contain a matching <%s> in <%s>.%s div p 
-    at div
-    at Badge (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:691:18)
-    at p
-    at div
-    at div
-    at _c8 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:622:248)
-    at div
-    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:578:240)
-    at div
-    at div
-    at div
-    at section
-    at div
-    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:1532:245)
-    at main
-    at div
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at TooltipProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
-    at AuthProvider (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
-    at QueryClientProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
-    at App (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3235:16)
-    at PathnameContextProviderAdapter (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
-    at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
-    at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
-    at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
-[00:21:34.239] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <div> p 
-    at div
-    at Badge (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:691:18)
-    at p
-    at div
-    at div
-    at _c8 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:622:248)
-    at div
-    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:578:240)
-    at div
-    at div
-    at div
-    at section
-    at div
-    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__79db1bd0._.js:1532:245)
-    at main
-    at div
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at TooltipProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
-    at AuthProvider (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
-    at QueryClientProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
-    at App (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3235:16)
-    at PathnameContextProviderAdapter (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
-    at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
-    at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
-    at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
-[00:21:34.239] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.
-[00:21:47.167] Server  LOG      ✓ Compiled in 404ms
-[00:28:28.724] Server  LOG      ✓ Compiled in 399ms
-[00:28:49.195] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <a> a 
-    at a
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3041:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:18415:13
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:18054:13
-    at a
-    at LinkComponent (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:4335:19)
-    at div
-    at div
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3267:13
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at CollectionProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:18393:13
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:18217:13
-    at Presence (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3609:13)
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:18153:13
-    at _c6 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1598:258)
-    at li
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:17921:13
-    at ul
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at CollectionProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:18393:13
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
-    at div
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:17896:13
-    at _c2 (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1562:255)
-    at nav
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at CollectionProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at NavigationMenuProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:17840:13)
-    at http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:17702:13
-    at _c (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1543:250)
-    at nav
-    at div
-    at div
-    at header
-    at Navigation (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1694:227)
-    at div
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at TooltipProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
-    at AuthProvider (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
-    at QueryClientProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
-    at App (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3235:16)
-    at PathnameContextProviderAdapter (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
-    at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
-    at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
-    at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-[00:29:02.988] Server  LOG      ✓ Compiled in 201ms
-[00:29:04.158] Server  LOG      ✓ Compiled in 177ms
-[00:29:06.403] Server  LOG      ✓ Compiled in 213ms
-[00:29:07.698] Server  LOG      ✓ Compiled in 168ms
-[00:29:08.913] Server  LOG      ✓ Compiled in 162ms
-[00:29:23.090] Server  LOG      ✓ Compiled in 293ms
-[00:34:02.019] Server  LOG      ✓ Compiled in 353ms
-[00:34:16.660] Server  LOG      ✓ Compiled in 267ms
-[00:34:18.053] Server  LOG      ✓ Compiled in 227ms
-[00:34:36.993] Server  LOG      ✓ Compiled in 256ms
-[00:34:39.882] Server  LOG      ✓ Compiled in 245ms
-[00:34:40.973] Server  LOG      ✓ Compiled in 239ms
-[00:34:44.383] Server  LOG      ✓ Compiled in 212ms
-[00:36:10.974] Server  LOG      ✓ Compiled in 285ms
-[00:36:14.091] Server  LOG      ✓ Compiled in 195ms
-[00:42:34.171] Server  LOG      ✓ Compiled in 289ms
-[00:42:44.465] Server  LOG      ✓ Compiled in 205ms
-[00:42:59.138] Server  LOG      ✓ Compiled in 630ms
-[00:43:14.348] Server  LOG      ✓ Compiled in 469ms
-[00:43:49.294] Server  LOG      ✓ Compiled in 476ms
-[00:44:04.915] Server  LOG      ✓ Compiled in 421ms
-[00:48:43.117] Server  LOG      ✓ Compiled in 420ms
-[00:49:44.895] Browser ERROR   uncaughtError: ReferenceError: values is not defined
-[00:49:44.895] Browser ERROR   uncaughtError: ReferenceError: values is not defined
-[00:49:44.895] Browser ERROR   The above error occurred in the <Home> component:
-
-    at Home (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__24978ab5._.js?id=%255Bproject%255D%252FTesting%252FAstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38%252Fsrc%252Fpages%252Findex.tsx+%255Bclient%255D+%2528ecmascript%2529:118:245)
-    at main
-    at div
-    at Provider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
-    at TooltipProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
-    at AuthProvider (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
-    at QueryClientProvider (http://192.168.63.1:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
-    at App (http://192.168.63.1:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3235:16)
-    at PathnameContextProviderAdapter (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
-    at PagesDevOverlayErrorBoundary (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
-    at PagesDevOverlayBridge (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
-    at Container (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
-    at AppContainer (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
-    at Root (http://192.168.63.1:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
-
-React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:49:45.146] Server  LOG      ✓ Compiled in 413ms
-[00:49:52.214] Server  LOG      ✓ Compiled in 394ms
-[01:11:04.747] Server  LOG      ✓ Compiled in 283ms
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:14.874] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.

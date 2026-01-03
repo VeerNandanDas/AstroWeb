@@ -2,24 +2,6 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
-  "/_error": [
-    "static/chunks/pages/_error.js"
-  ],
-  "/about": [
-    "static/chunks/pages/about.js"
-  ],
-  "/blog": [
-    "static/chunks/pages/blog.js"
-  ],
-  "/contact": [
-    "static/chunks/pages/contact.js"
-  ],
-  "/products/[category]": [
-    "static/chunks/pages/products/[category].js"
-  ],
-  "/videos": [
-    "static/chunks/pages/videos.js"
-  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],

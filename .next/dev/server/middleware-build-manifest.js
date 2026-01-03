@@ -1,7 +1,7 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
-      "static/chunks/[root-of-the-server]__79db1bd0._.js",
+      "static/chunks/[root-of-the-server]__24978ab5._.js",
       "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
       "static/chunks/70d72_next_dist_shared_lib_85a0c1dd._.js",
       "static/chunks/70d72_next_dist_client_02e29845._.js",
@@ -15,9 +15,9 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/70d72_react-icons_lib_a8742000._.js",
       "static/chunks/70d72_date-fns_b2eadce0._.js",
       "static/chunks/70d72_react-day-picker_dist_index_esm_ab6c8c8d.js",
-      "static/chunks/70d72_2178ea99._.js",
+      "static/chunks/70d72_ad2dd5d1._.js",
       "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_a06c84a9._.js"
+      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_3c21a36a._.js"
     ],
     "/_app": [
       "static/chunks/[root-of-the-server]__421ccec1._.js",
@@ -36,97 +36,6 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_styles_globals_5b1225d7.css",
       "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__app_2da965e7._.js",
       "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__app_358ab2fe._.js"
-    ],
-    "/_error": [
-      "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
-      "static/chunks/70d72_next_dist_shared_lib_d9a23cd9._.js",
-      "static/chunks/70d72_next_dist_client_f2e01bce._.js",
-      "static/chunks/70d72_next_dist_75a8f50c._.js",
-      "static/chunks/70d72_next_error_6bb2e02a.js",
-      "static/chunks/[next]_entry_page-loader_ts_38d4c6b8._.js",
-      "static/chunks/70d72_react_54f464be._.js",
-      "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
-      "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_3d623642._.js",
-      "static/chunks/[root-of-the-server]__77463aa5._.js",
-      "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__error_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__error_ebae6310._.js"
-    ],
-    "/about": [
-      "static/chunks/[root-of-the-server]__2fb9d821._.js",
-      "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
-      "static/chunks/70d72_next_dist_shared_lib_d9a23cd9._.js",
-      "static/chunks/70d72_next_dist_client_f2e01bce._.js",
-      "static/chunks/70d72_next_dist_b2895175._.js",
-      "static/chunks/70d72_next_head_421bef7b.js",
-      "static/chunks/70d72_react_a450380a._.js",
-      "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
-      "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_framer-motion_dist_es_61af5a35._.js",
-      "static/chunks/70d72_de5d68c2._.js",
-      "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_about_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_about_e2bb4888._.js"
-    ],
-    "/blog": [
-      "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
-      "static/chunks/70d72_next_dist_shared_lib_85a0c1dd._.js",
-      "static/chunks/70d72_next_dist_client_02e29845._.js",
-      "static/chunks/70d72_next_dist_b2895175._.js",
-      "static/chunks/70d72_next_800770b1._.js",
-      "static/chunks/70d72_react_a450380a._.js",
-      "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
-      "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_085e8acd._.js",
-      "static/chunks/[root-of-the-server]__b1a54e8f._.js",
-      "static/chunks/65f12_roWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_blog_index_tsx_2da965e7._.js",
-      "static/chunks/03d10_roWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_blog_index_tsx_96c698e3._.js"
-    ],
-    "/contact": [
-      "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
-      "static/chunks/70d72_next_dist_shared_lib_d9a23cd9._.js",
-      "static/chunks/70d72_next_dist_client_f2e01bce._.js",
-      "static/chunks/70d72_next_dist_b2895175._.js",
-      "static/chunks/70d72_next_head_421bef7b.js",
-      "static/chunks/70d72_react_a450380a._.js",
-      "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
-      "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_react-icons_si_index_mjs_10012f8b._.js",
-      "static/chunks/70d72_react-icons_lib_a8742000._.js",
-      "static/chunks/70d72_8f6cd56f._.js",
-      "static/chunks/[root-of-the-server]__5a04cd69._.js",
-      "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_contact_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_contact_6b6dab49._.js"
-    ],
-    "/products/[category]": [
-      "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
-      "static/chunks/70d72_next_dist_shared_lib_5a6a3a36._.js",
-      "static/chunks/70d72_next_dist_client_02e29845._.js",
-      "static/chunks/70d72_next_dist_b2895175._.js",
-      "static/chunks/70d72_next_b09f8cee._.js",
-      "static/chunks/70d72_react_a450380a._.js",
-      "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
-      "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_3a430be9._.js",
-      "static/chunks/[root-of-the-server]__aedb0b46._.js",
-      "static/chunks/7244b_30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_products_[category]_tsx_2da965e7._.js",
-      "static/chunks/45de5_30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_products_[category]_tsx_6886caeb._.js"
-    ],
-    "/videos": [
-      "static/chunks/70d72_next_dist_compiled_33a0d851._.js",
-      "static/chunks/70d72_next_dist_shared_lib_d9a23cd9._.js",
-      "static/chunks/70d72_next_dist_client_f2e01bce._.js",
-      "static/chunks/70d72_next_dist_b2895175._.js",
-      "static/chunks/70d72_next_head_421bef7b.js",
-      "static/chunks/70d72_react_a450380a._.js",
-      "static/chunks/70d72_react-dom_cjs_react-dom_development_290ae4ac.js",
-      "static/chunks/70d72_react-dom_daa8b4c6._.js",
-      "static/chunks/70d72_@supabase_realtime-js_dist_module_f2c3c842._.js",
-      "static/chunks/70d72_@supabase_storage-js_dist_module_55637b84._.js",
-      "static/chunks/70d72_@supabase_auth-js_dist_module_f073888e._.js",
-      "static/chunks/70d72_db75a3f6._.js",
-      "static/chunks/[root-of-the-server]__0d4c7c0f._.js",
-      "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_videos_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_videos_93dd4d97._.js"
     ]
   },
   "devFiles": [],

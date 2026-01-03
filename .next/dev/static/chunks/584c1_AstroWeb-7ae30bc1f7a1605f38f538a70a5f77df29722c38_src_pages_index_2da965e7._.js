@@ -15,7 +15,7 @@
   "static/chunks/70d72_react-icons_lib_a8742000._.js",
   "static/chunks/70d72_date-fns_b2eadce0._.js",
   "static/chunks/70d72_react-day-picker_dist_index_esm_ab6c8c8d.js",
-  "static/chunks/70d72_c9147aaf._.js"
+  "static/chunks/70d72_ad2dd5d1._.js"
 ],
     source: "entry"
 });
