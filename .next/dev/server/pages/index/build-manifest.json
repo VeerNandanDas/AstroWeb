@@ -6,7 +6,7 @@
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/[root-of-the-server]__24978ab5._.js",
+      "static/chunks/[root-of-the-server]__74da4e12._.js",
       "static/chunks/70d72_next_dist_compiled_0573f9c1._.js",
       "static/chunks/70d72_next_dist_shared_lib_85a0c1dd._.js",
       "static/chunks/70d72_next_dist_client_02e29845._.js",
@@ -22,7 +22,7 @@
       "static/chunks/70d72_react-day-picker_dist_index_esm_ab6c8c8d.js",
       "static/chunks/70d72_ad2dd5d1._.js",
       "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_2da965e7._.js",
-      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_3c21a36a._.js"
+      "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages_index_a51264c0._.js"
     ]
   },
   "ampFirstPages": []

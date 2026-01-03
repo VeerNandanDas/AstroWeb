@@ -393,8 +393,8 @@ export default function Home() {
                   </p>
 
                   <p>
-                    He also holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and Diploma in <span className="text-foreground font-medium">Vaastu Shastra</span> and <span className="text-foreground font-medium">Medical Astrology</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
-                    Aacharya shah is an ex-microbiologist , M.Sc (Microbiology) and Pre-PhD (Molecular Medicine) <br />
+                    He also holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and <b>Diploma</b> in <span className="text-foreground font-medium">(Vaastu Shastra)</span> and <span className="text-foreground font-medium">(Medical Astrology)</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
+                    Aacharya shah is an ex-microbiologist , <b>M.Sc. (Microbiology)</b> and <b>Pre-PhD (Molecular Medicine).</b> <br />
                     <br></br> With Over 6 years of experience in Vedic Astrology and Vaastu Shastra, he brings remarkable changes in one's life using his astrological predictions, Vaastu, and karmic remedies.
                   </p>
 
@@ -476,7 +476,7 @@ export default function Home() {
                       </p>
                       <p className="flex items-start gap-2">
                         <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Academic</Badge>
-                        <span>M.A.(Astrology) <br></br> M.Sc. (Microbiology), Pre-PhD (Molecular Medicine)</span>
+                        <span>M.A.(Astrology) <br></br> M.Sc.(Microbiology), Pre-PhD (Molecular Medicine)</span>
                       </p>
                     </div>
 
