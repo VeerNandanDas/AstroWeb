@@ -1047,7 +1047,7 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 const AuthContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["createContext"])(undefined);
 // Admin email domains
 const ADMIN_EMAILS = [
-    "acharyaomshah@gmail.com"
+    "aacharyaomshah@gmail.com"
 ];
 const ADMIN_DOMAINS = [
     "@admin.divine"

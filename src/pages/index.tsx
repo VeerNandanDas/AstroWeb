@@ -165,7 +165,7 @@ export default function Home() {
   // Booking state
   const [bookingDate, setBookingDate] = useState<Date | undefined>(new Date());
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
-  const [consultationType, setConsultationType] = useState("Horoscope Analysis");
+  const [consultationType, setConsultationType] = useState("");
 
   const services = [
     {
@@ -374,17 +374,17 @@ export default function Home() {
               >
                 <Badge className="bg-accent/10 text-accent mb-6 px-4 py-1.5 uppercase tracking-wider font-semibold">Vedic Astrologer & Vaastu consultant</Badge>
                 <h2 className="font-serif text-5xl md:text-6xl font-bold mb-8 leading-tight">
-                  Acharya <span className="text-accent italic">Om shah</span>
+                  Aacharya <span className="text-accent italic">Om shah</span>
                 </h2>
 
                 <div className="space-y-8 text-lg text-muted-foreground leading-relaxed">
                   <p className="border-l-4 border-accent/30 pl-6 py-2">
-                    <span className="font-bold text-foreground">Acharya Om shah</span> is a <span className="text-[#D4AF37] font-extrabold underline decoration-accent/20">gold medalist</span> Astrologer from K.N.Rao Institute of Astrology, Bharati Vidya Bhavan, New Delhi.
+                    <span className="font-bold text-foreground">Aacharya Om shah</span> is a <span className="text-[#D4AF37] font-extrabold underline decoration-accent/20">gold medalist</span> Astrologer from K.N.Rao Institute of Astrology, Bharati Vidya Bhavan, New Delhi.
                   </p>
 
                   <p>
                     He also holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and Diploma in <span className="text-foreground font-medium">Vaastu Shastra</span> and <span className="text-foreground font-medium">Medical Astrology</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
-                    Acharya shah is an ex-microbiologist , M.Sc (Microbiology) and Pre-PhD (Molecular Medicine) <br />
+                    Aacharya shah is an ex-microbiologist , M.Sc (Microbiology) and Pre-PhD (Molecular Medicine) <br />
                     <br></br> With Over 6 years of experience in Vedic Astrology and Vaastu Shastra, he brings remarkable changes in one's life using his astrological predictions, Vaastu, and karmic remedies.
                   </p>
 
@@ -457,7 +457,7 @@ export default function Home() {
 
                     <div className="space-y-3 text-[11px] text-muted-foreground border-t pt-4 text-left">
                       <p className="flex items-start gap-2">
-                        <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Acharya</Badge>
+                        <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Aacharya</Badge>
                         <span>Jyotish, BVB-Delhi (Gold Medal)</span>
                       </p>
                       <p className="flex items-start gap-2">

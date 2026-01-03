@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { supabase } from "@/lib/supabase";
 
-const ADMIN_EMAILS = ["acharyaomshah@gmail.com"];
+const ADMIN_EMAILS = ["aacharyaomshah@gmail.com"];
 const ADMIN_DOMAINS = ["@admin.divine"];
 
 const isAdminUser = (email: string | undefined) => {

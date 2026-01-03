@@ -61,14 +61,14 @@ export default function About() {
                     Vedic Astrologer & Mentor
                   </Badge>
                   <h1 className="font-serif text-5xl md:text-6xl font-bold text-foreground leading-tight">
-                    Acharya <br />
+                    Aacharya <br />
                     <span className="text-accent italic">Om Shah</span>
                   </h1>
                 </div>
 
                 <div className="space-y-6 text-lg text-muted-foreground leading-relaxed font-light">
                   <p>
-                    <span className="font-semibold text-foreground">Aacharya Om Shah</span> is a <span className="text-accent font-medium">Gold Medalist Astrologer</span> (Jyotish Acharya) from K.N. Rao Institute of Astrology, Bhartiya Vidya Bhawan & Batch Topper (Diploma in Medical Astrology) from SLBS National Sanskrit University, New Delhi.
+                    <span className="font-semibold text-foreground">Aacharya Om Shah</span> is a <span className="text-accent font-medium">Gold Medalist Astrologer</span> (Jyotish Aacharya) from K.N. Rao Institute of Astrology, Bhartiya Vidya Bhawan & Batch Topper (Diploma in Medical Astrology) from SLBS National Sanskrit University, New Delhi.
                   </p>
 
                   <p>
@@ -214,7 +214,7 @@ export default function About() {
               Begin Your Spiritual Transformation
             </h2>
             <p className="text-white/90 text-xl max-w-2xl mx-auto mb-10 font-light">
-              Join thousands of satisfied students and clients who have illuminated their paths with Acharya Om Shah's guidance.
+              Join thousands of satisfied students and clients who have illuminated their paths with Aacharya Om Shah's guidance.
             </p>
           </motion.div>
         </section>

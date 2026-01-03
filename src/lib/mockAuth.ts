@@ -2,7 +2,7 @@
 // Replace with real Supabase credentials in environment variables
 
 const DEMO_ACCOUNTS = [
-  { email: "acharyaomshah@gmail.com", password: "omshahastrologer", isAdmin: true },
+  { email: "aacharyaomshah@gmail.com", password: "omshahastrologer", isAdmin: true },
   { email: "user@example.com", password: "user123", isAdmin: false }
 ];
 

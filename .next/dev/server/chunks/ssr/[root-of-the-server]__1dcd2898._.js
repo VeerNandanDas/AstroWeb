@@ -1258,7 +1258,7 @@ function Home() {
     // Booking state
     const [bookingDate, setBookingDate] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(new Date());
     const [selectedTime, setSelectedTime] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(null);
-    const [consultationType, setConsultationType] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("Horoscope Analysis");
+    const [consultationType, setConsultationType] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])("");
     const services = [
         {
             id: "horoscope-analysis",
@@ -1279,21 +1279,21 @@ function Home() {
             price: "₹6,000 + 18% GST"
         },
         {
-            id: "residential-vaastu",
-            name: "Residential vaastu Analysis",
-            description: "A detailed vaastu report for your home with effective remedies to optimize energy flow, ensuring peace and prosperity.",
+            id: "residential-Vaastu",
+            name: "Residential Vaastu Analysis",
+            description: "A detailed Vaastu report for your home with effective remedies to optimize energy flow, ensuring peace and prosperity.",
             price: "₹20 / sq. ft.+  18% GST"
         },
         {
-            id: "commercial-vaastu",
-            name: "Commercial vaastu Analysis",
-            description: "Specialized vaastu assessment for offices, shops, or factories to identify remedies that remove obstacles and stimulate business growth.",
+            id: "commercial-Vaastu",
+            name: "Commercial Vaastu Analysis",
+            description: "Specialized Vaastu assessment for offices, shops, or factories to identify remedies that remove obstacles and stimulate business growth.",
             price: "₹20 / sq. ft + 18% GST."
         },
         {
             id: "karmic-remedial",
             name: "Astrological (Karmic) Remedial Services",
-            description: " Vedic remedies includes vaastu remedies , garha anusthaan(mantra , hawan ), panch tatwa treatment and yantra therapy",
+            description: " Vedic remedies includes Vaastu remedies , garha anusthaan(mantra , hawan ), panch tatwa treatment and yantra therapy",
             price: "₹20,000 + 18% GST"
         }
     ];
@@ -1317,7 +1317,7 @@ function Home() {
         const birthDetails = form.querySelector("#birth-details")?.value;
         const birthPlace = form.querySelector("#birth-place")?.value;
         const message = form.querySelector("#message")?.value;
-        const whatsappMessage = `Hello Acharya Om shah,%0A%0AI would like to book a *${consultationType}* consultation.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Birth Details:* ${birthDetails}%0A*Birth Place:* ${birthPlace}%0A*Preferred Date:* ${bookingDate?.toLocaleDateString()}%0A*Preferred Time:* ${selectedTime}%0A%0A*Additional Message:* ${message || "N/A"}`;
+        const whatsappMessage = `Hello Aacharya Om shah,%0A%0AI would like to book a *${consultationType}* consultation.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Birth Details:* ${birthDetails}%0A*Birth Place:* ${birthPlace}%0A*Preferred Date:* ${bookingDate?.toLocaleDateString()}%0A*Preferred Time:* ${selectedTime}%0A%0A*Additional Message:* ${message || "N/A"}`;
         const adminPhoneNumber = "918527530910";
         window.open(`https://wa.me/${adminPhoneNumber}?text=${whatsappMessage}`, "_blank");
     };
@@ -1359,9 +1359,9 @@ function Home() {
         },
         {
             name: "Vaastu Products",
-            href: "/products/vaastu",
+            href: "/products/Vaastu",
             image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400&h=300&fit=crop",
-            description: "Energy balancing vaastu tools"
+            description: "Energy balancing Vaastu tools"
         },
         {
             name: "Others",
@@ -1667,14 +1667,14 @@ function Home() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
                                                     className: "font-serif text-5xl md:text-6xl font-bold mb-8 leading-tight",
                                                     children: [
-                                                        "Acharya ",
+                                                        "Aacharya ",
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                             className: "text-accent italic",
                                                             children: "Om shah"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                             lineNumber: 377,
-                                                            columnNumber: 27
+                                                            columnNumber: 28
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
@@ -1690,7 +1690,7 @@ function Home() {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                                     className: "font-bold text-foreground",
-                                                                    children: "Acharya Om shah"
+                                                                    children: "Aacharya Om shah"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                                     lineNumber: 382,
@@ -1703,7 +1703,7 @@ function Home() {
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                                     lineNumber: 382,
-                                                                    columnNumber: 93
+                                                                    columnNumber: 94
                                                                 }, this),
                                                                 " Astrologer from K.N.Rao Institute of Astrology, Bharati Vidya Bhavan, New Delhi."
                                                             ]
@@ -1726,7 +1726,7 @@ function Home() {
                                                                 " and Diploma in ",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                                                                     className: "text-foreground font-medium",
-                                                                    children: "vaastu Shastra"
+                                                                    children: "Vaastu Shastra"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                                     lineNumber: 386,
@@ -1741,18 +1741,18 @@ function Home() {
                                                                     lineNumber: 386,
                                                                     columnNumber: 192
                                                                 }, this),
-                                                                " from BVB Delhi and SLBS National Sanskrit University, respectively. Acharya shah is an ex-microbiologist , M.Sc (Microbiology) and Pre-PhD (Molecular Medicine) ",
+                                                                " from BVB Delhi and SLBS National Sanskrit University, respectively. Aacharya shah is an ex-microbiologist , M.Sc (Microbiology) and Pre-PhD (Molecular Medicine) ",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                                     lineNumber: 387,
-                                                                    columnNumber: 113
+                                                                    columnNumber: 114
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                                     lineNumber: 388,
                                                                     columnNumber: 21
                                                                 }, this),
-                                                                " With Over 6 years of experience in Vedic Astrology and Vaastu Shastra, he brings remarkable changes in one's life using his astrological predictions, vaastu, and karmic remedies."
+                                                                " With Over 6 years of experience in Vedic Astrology and Vaastu Shastra, he brings remarkable changes in one's life using his astrological predictions, Vaastu, and karmic remedies."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
@@ -1977,7 +1977,7 @@ function Home() {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
                                                                     className: "font-serif text-2xl font-bold",
-                                                                    children: "Acharya Om shah"
+                                                                    children: "Aacharya Om shah"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                                     lineNumber: 453,
@@ -2014,7 +2014,7 @@ function Home() {
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["Badge"], {
                                                                             variant: "outline",
                                                                             className: "h-4 px-1 text-[9px] uppercase",
-                                                                            children: "Acharya"
+                                                                            children: "Aacharya"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                                             lineNumber: 460,
@@ -2501,7 +2501,7 @@ function Home() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
                                             className: "font-serif text-4xl font-bold mb-4",
-                                            children: "Authentic Spiritual Products"
+                                            children: "Purchase Authentic Products"
                                         }, void 0, false, {
                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                             lineNumber: 582,
@@ -3486,7 +3486,7 @@ function Home() {
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                                         className: "font-bold",
-                                                                        children: "Aacharyaomshah@gmail.com"
+                                                                        children: "acharyaomshah@gmail.com"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/index.tsx",
                                                                         lineNumber: 830,

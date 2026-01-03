@@ -34,7 +34,7 @@ export default function BookAppointment() {
   const { user, isAdmin, loading: authLoading } = useAuth();
   const [date, setDate] = useState<Date | undefined>(new Date());
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
-  const [consultationType, setConsultationType] = useState("Personal");
+  const [consultationType, setConsultationType] = useState("");
   const [isBooking, setIsBooking] = useState(false);
   const [updatingId, setUpdatingId] = useState<string | null>(null);
   const [selectedService, setSelectedService] = useState<string | null>(null);
@@ -43,42 +43,42 @@ export default function BookAppointment() {
     {
       id: "horoscope-analysis",
       name: "Horoscope Analysis",
-      description: "A comprehensive analysis of your birth chart to provide insights into your personality, health, relationships, marriage, career, and financial prospects.",
+      description: "A comprehensive analysis of your birth chart to provide insights into your personality, health, relationships, marriage, career, and financial gains etc.",
       price: "₹3,000 + 18% GST",
       category: "horoscope"
     },
     {
       id: "varshaphala",
       name: "Varshaphala (Annual Forecast)",
-      description: "Detailed astrological guidance for one full year. This analysis utilizes your Janma Kundali combined with your Varsha Kundali to predict yearly trends.",
+      description: "Detailed astrological guidance for one full year. This analysis utilizes your Janma Kundali (parashari and jaimini systems) combined with your Varsha Kundali to predict yearly trends.",
       price: "₹6,000 + 18% GST",
       category: "horoscope"
     },
     {
       id: "muhurta-selection",
       name: "Muhurta Selection",
-      description: "Identification of the most auspicious moments for significant life events, including marriages, travel, Grah Pravesh, and business inaugurations.",
+      description: "Identification of the most auspicious moments for significant life events, including marriage, travel, Griha Pravesh, and business inaugurations.",
       price: "₹6,000 + 18% GST",
       category: "muhurta"
     },
     {
-      id: "residential-vaastu",
-      name: "Residential VAASTU Analysis",
-      description: "A detailed VAASTU report for your home with effective remedies to optimize energy flow, ensuring peace and prosperity.",
-      price: "₹20 / sq. ft.",
+      id: "residential-Vaastu",
+      name: "Residential Vaastu Analysis",
+      description: "A detailed Vaastu report for your home with effective remedies to optimize energy flow, ensuring peace and prosperity.",
+      price: "₹20 / sq. ft. + 18% GST",
       category: "vastu"
     },
     {
-      id: "commercial-vaastu",
-      name: "Commercial VAASTU Analysis",
-      description: "Specialized VAASTU assessment for offices, shops, or factories to identify remedies that remove obstacles and stimulate business growth.",
-      price: "₹20 / sq. ft.",
+      id: "commercial-Vaastu",
+      name: "Commercial Vaastu Analysis",
+      description: "Specialized Vaastu assessment for offices, shops, or factories to identify remedies that remove obstacles and stimulate business growth.",
+      price: "₹20 / sq. ft. + 18% GST",
       category: "vastu"
     },
     {
       id: "karmic-remedial",
       name: "Astrological (Karmic) Remedial Services",
-      description: "Holistic Vedic remedies designed to balance your karma. Includes corrections, Graha Anushthan, Pancha Tattva treatments, and Yantra therapy.",
+      description: "Vedic remedies includes Vaastu remedies, garha anusthaan (mantra, hawan), panch tatwa treatment and yantra therapy",
       price: "₹20,000 + 18% GST",
       category: "remedial"
     }
@@ -167,7 +167,7 @@ export default function BookAppointment() {
     const message = (form.querySelector("#message") as HTMLTextAreaElement)?.value;
 
     // Construct WhatsApp message
-    const whatsappMessage = `Hello Acharya Om shah,%0A%0AI would like to book a *${consultationType}* consultation.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Birth Details:* ${birthDetails}%0A*Birth Place:* ${birthPlace}%0A*Preferred Date:* ${date?.toLocaleDateString()}%0A*Preferred Time:* ${selectedTime}%0A%0A*Additional Message:* ${message || "N/A"}`;
+    const whatsappMessage = `Hello Aacharya Om shah,%0A%0AI would like to book a *${consultationType}* consultation.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Birth Details:* ${birthDetails}%0A*Birth Place:* ${birthPlace}%0A*Preferred Date:* ${date?.toLocaleDateString()}%0A*Preferred Time:* ${selectedTime}%0A%0A*Additional Message:* ${message || "N/A"}`;
 
     const adminPhoneNumber = "918527530910";
     const whatsappUrl = `https://wa.me/${adminPhoneNumber}?text=${whatsappMessage}`;
@@ -342,11 +342,11 @@ export default function BookAppointment() {
                 <CardContent className="p-6 space-y-6">
                   <div className="text-center">
                     <Avatar className="w-32 h-32 mx-auto mb-4 border-4 border-accent/20">
-                      <AvatarImage src="/WhatsApp Image 2026-01-03 at 17.07.18.jpeg" alt="Acharya Om Saha" className="object-cover" />
+                      < AvatarImage src="/WhatsApp Image 2026-01-03 at 17.07.18.jpeg" alt="Aacharya Om Saha" className="object-cover" />
                       <AvatarFallback>AOS</AvatarFallback>
                     </Avatar>
                     <h3 className="font-serif text-2xl font-bold mb-2 uppercase">
-                      Acharya Om Saha
+                      Aacharya Om Saha
                     </h3>
                     <p className="text-xs text-muted-foreground mb-3 leading-relaxed">
                       Jyotish Aacharya (Gold Medal)<br />

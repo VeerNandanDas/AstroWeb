@@ -29,8 +29,8 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      details: ["acharyaomshah@gmail.com"],
-      action: "mailto:acharyaomshah@gmail.com"
+      details: ["aacharyaomshah@gmail.com"],
+      action: "mailto:aacharyaomshah@gmail.com"
     },
     {
       icon: MapPin,

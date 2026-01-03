@@ -21,7 +21,7 @@ interface AuthContextType {
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 // Admin email domains
-const ADMIN_EMAILS = ["acharyaomshah@gmail.com"];
+const ADMIN_EMAILS = ["aacharyaomshah@gmail.com"];
 const ADMIN_DOMAINS = ["@admin.divine"];
 
 const isAdminUser = (email: string | undefined) => {

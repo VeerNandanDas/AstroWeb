@@ -37,7 +37,7 @@ export default function Login() {
         description: "Logged in successfully"
       });
 
-      if (email === "acharyaomshah@gmail.com" || email.endsWith("@admin.divine")) {
+      if (email === "aacharyaomshah@gmail.com" || email.endsWith("@admin.divine")) {
         setTimeout(() => router.push("/admin"), 500);
       } else {
         setTimeout(() => router.push("/"), 500);
@@ -128,7 +128,7 @@ export default function Login() {
 
             <div className="pt-3 border-t">
               <p className="text-xs text-muted-foreground mb-2">Admin Credentials:</p>
-              <p className="text-xs">Email: acharyaomshah@gmail.com</p>
+              <p className="text-xs">Email: aacharyaomshah@gmail.com</p>
               <p className="text-xs">Password: omshahastrologer</p>
             </div>
           </div>
