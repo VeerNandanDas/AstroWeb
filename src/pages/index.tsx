@@ -579,7 +579,7 @@ export default function Home() {
         <section className="py-24 bg-background">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="font-serif text-4xl font-bold mb-4">Authentic Spiritual Products</h2>
+              <h2 className="font-serif text-4xl font-bold mb-4">Purchase Authentic Products</h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Sourced and certified by experts for your spiritual growth</p>
             </div>
 
