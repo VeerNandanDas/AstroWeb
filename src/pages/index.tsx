@@ -393,7 +393,7 @@ export default function Home() {
                   </p>
 
                   <p>
-                    He also holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and <b>Diploma</b> in <span className="text-foreground font-medium">(Vaastu Shastra)</span> and <span className="text-foreground font-medium">(Medical Astrology)</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
+                    He holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and <b>Diploma</b> in <span className="text-foreground font-medium">(Vaastu Shastra)</span> and <span className="text-foreground font-medium">(Medical Astrology)</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
                     Aacharya shah is an ex-microbiologist , <b>M.Sc. (Microbiology)</b> and <b>Pre-PhD (Molecular Medicine).</b> <br />
                     <br></br> With Over 6 years of experience in Vedic Astrology and Vaastu Shastra, he brings remarkable changes in one's life using his astrological predictions, Vaastu, and karmic remedies.
                   </p>
