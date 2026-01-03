@@ -188,14 +188,14 @@ export default function Home() {
     },
     {
       id: "residential-vaastu",
-      name: "Residential VAASTU Analysis",
-      description: "A detailed VAASTU report for your home with effective remedies to optimize energy flow, ensuring peace and prosperity.",
+      name: "Residential vaastu Analysis",
+      description: "A detailed vaastu report for your home with effective remedies to optimize energy flow, ensuring peace and prosperity.",
       price: "₹20 / sq. ft.+  18% GST"
     },
     {
       id: "commercial-vaastu",
       name: "Commercial vaastu Analysis",
-      description: "Specialized VAASTU assessment for offices, shops, or factories to identify remedies that remove obstacles and stimulate business growth.",
+      description: "Specialized vaastu assessment for offices, shops, or factories to identify remedies that remove obstacles and stimulate business growth.",
       price: "₹20 / sq. ft + 18% GST."
     },
     {
