@@ -171,19 +171,19 @@ export default function Home() {
     {
       id: "horoscope-analysis",
       name: "Horoscope Analysis",
-      description: "A comprehensive analysis of your birth chart to provide insights into your personality, health, relationships, marriage, career, and financial prospects.",
+      description: "A comprehensive analysis of your birth chart to provide insights into your personality, health, relationships, marriage, career, and financial gains etc.",
       price: "₹3,000 + 18% GST"
     },
     {
       id: "varshaphala",
       name: "Varshaphala (Annual Forecast)",
-      description: "Detailed astrological guidance for one full year. This analysis utilizes your Janma Kundali combined with your Varsha Kundali to predict yearly trends.",
+      description: "Detailed astrological guidance for one full year. This analysis utilizes your Janma Kundali  (parashari and jaimini systems) combined with your Varsha Kundali to predict yearly trends.",
       price: "₹6,000 + 18% GST"
     },
     {
       id: "muhurta-selection",
       name: "Muhurta Selection",
-      description: "Identification of the most auspicious moments for significant life events, including marriages, travel, Grah Pravesh, and business inaugurations.",
+      description: "Identification of the most auspicious moments for significant life events, including marriage, travel, Griha Pravesh, and business inaugurations.",
       price: "₹6,000 + 18% GST"
     },
     {
@@ -201,7 +201,7 @@ export default function Home() {
     {
       id: "karmic-remedial",
       name: "Astrological (Karmic) Remedial Services",
-      description: "Holistic Vedic remedies designed to balance your karma. Includes corrections, Graha Anushthan, Pancha Tattva treatments, and Yantra therapy.",
+      description: " Vedic remedies includes vastu remedies , garha anusthaan(mantra , hawan ), panch tatwa treatment and yantra therapy",
       price: "₹20,000 + 18% GST"
     }
   ];
@@ -215,7 +215,7 @@ export default function Home() {
     const phone = (form.querySelector("#phone") as HTMLInputElement)?.value;
     const message = (form.querySelector("#message") as HTMLTextAreaElement)?.value;
 
-    const whatsappMessage = `Hello Aacharya Om Shah,%0A%0AI would like to book a *${consultationType}* consultation.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Preferred Date:* ${bookingDate?.toLocaleDateString()}%0A*Preferred Time:* ${selectedTime}%0A%0A*Additional Message:* ${message || "N/A"}`;
+    const whatsappMessage = `Hello Acharya Om Saha,%0A%0AI would like to book a *${consultationType}* consultation.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Preferred Date:* ${bookingDate?.toLocaleDateString()}%0A*Preferred Time:* ${selectedTime}%0A%0A*Additional Message:* ${message || "N/A"}`;
     const adminPhoneNumber = "918527530910";
     window.open(`https://wa.me/${adminPhoneNumber}?text=${whatsappMessage}`, "_blank");
   };
@@ -369,26 +369,22 @@ export default function Home() {
                 transition={{ duration: 0.8 }}
                 className="order-1 lg:order-2"
               >
-                <Badge className="bg-accent/10 text-accent mb-6 px-4 py-1.5 uppercase tracking-wider font-semibold">Vedic Astrologer & Mentor</Badge>
+                <Badge className="bg-accent/10 text-accent mb-6 px-4 py-1.5 uppercase tracking-wider font-semibold">Vedic Astrologer & Vaastu consultant</Badge>
                 <h2 className="font-serif text-5xl md:text-6xl font-bold mb-8 leading-tight">
-                  Aacharya <span className="text-accent italic">Om shah</span>
+                  Acharya <span className="text-accent italic">Om Saha</span>
                 </h2>
 
                 <div className="space-y-8 text-lg text-muted-foreground leading-relaxed">
                   <p className="border-l-4 border-accent/30 pl-6 py-2">
-                    <span className="font-bold text-foreground">Aacharya Om shah</span> is a <span className="text-[#D4AF37] font-extrabold underline decoration-accent/20">gold medalist</span> astrologer (Jyotish Aacharya) from K.N. Rao Institute of Astrology, Bhartiya Vidya Bhawan.
+                    <span className="font-bold text-foreground">Acharya Om Saha</span> is a <span className="text-[#D4AF37] font-extrabold underline decoration-accent/20">gold medalist</span> astrologer from K.N.Rao Institute of Astrology, Bharati Vidya Bhavan, New Delhi.
                   </p>
 
                   <p>
-                    He also holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and Diploma in <span className="text-foreground font-medium">(Vastu Shastra)</span> and <span className="text-foreground font-medium">(Medical Astrology)</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
+                    He also holds <span className="text-foreground font-medium">M.A. (Astrology)</span> and Diploma in <span className="text-foreground font-medium">Vastu Shastra</span> and <span className="text-foreground font-medium">Medical Astrology</span> from BVB Delhi and SLBS National Sanskrit University, respectively.
                   </p>
 
-                  <div className="pl-6 border-l-2 border-accent/20 italic text-base">
-                    His expertise includes Financial Astrology, Medical Astrology, Career Counseling, Relationship Astrology, Prashna, Varshaphal, Muhurta, Astro-Vaastu & Remedial Astrology.
-                  </div>
-
                   <p className="bg-muted/30 p-6 rounded-xl border border-muted shadow-sm text-base">
-                    An ex-microbiologist with an <span className="text-foreground font-bold">M.Sc (Microbiology)</span> and <span className="text-foreground font-bold">Pre-PhD (Molecular Medicine)</span>, Aacharya shah bridges ancient wisdom with modern scientific precision. He actively teaches rare techniques like <span className="text-accent">Sarbatobhadra Chakra</span> to students nationwide.
+                    Acharya Saha is an ex-microbiologist, <span className="text-foreground font-bold">M.Sc (Microbiology)</span>, and <span className="text-foreground font-bold">Pre-PhD (Molecular Medicine)</span>. With over 6 years of experience in Vedic Astrology and Vastu Shastra, he brings remarkable changes in one's life using his astrological predictions, Vastu, and karmic remedies.
                   </p>
                 </div>
               </motion.div>
@@ -451,14 +447,14 @@ export default function Home() {
                       </Avatar>
                     </div>
                     <div>
-                      <h3 className="font-serif text-2xl font-bold">Aacharya Om shah</h3>
+                      <h3 className="font-serif text-2xl font-bold">Acharya Om Saha</h3>
                       <p className="text-accent font-medium text-sm">Astro & Vaastu Consultant</p>
                       <p className="text-muted-foreground text-xs italic">(Karmic Consultant)</p>
                     </div>
 
                     <div className="space-y-3 text-[11px] text-muted-foreground border-t pt-4 text-left">
                       <p className="flex items-start gap-2">
-                        <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Aacharya</Badge>
+                        <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Acharya</Badge>
                         <span>Jyotish, BVB-Delhi (Gold Medal)</span>
                       </p>
                       <p className="flex items-start gap-2">
@@ -467,7 +463,7 @@ export default function Home() {
                       </p>
                       <p className="flex items-start gap-2">
                         <Badge variant="outline" className="h-4 px-1 text-[9px] uppercase">Academic</Badge>
-                        <span>M.A. (Astrology), M.Sc. (Microbiology), Pre-PhD (Molecular Medicine)</span>
+                        <span>M.A.(Astrology), M.Sc. (Microbiology), Pre-PhD (Molecular Medicine)</span>
                       </p>
                     </div>
 

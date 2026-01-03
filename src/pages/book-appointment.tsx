@@ -340,11 +340,11 @@ export default function BookAppointment() {
                 <CardContent className="p-6 space-y-6">
                   <div className="text-center">
                     <Avatar className="w-32 h-32 mx-auto mb-4 border-4 border-accent/20">
-                      <AvatarImage src="/WhatsApp Image 2026-01-03 at 17.07.18.jpeg" alt="Aacharya Om shah" className="object-cover" />
+                      <AvatarImage src="/WhatsApp Image 2026-01-03 at 17.07.18.jpeg" alt="Acharya Om Saha" className="object-cover" />
                       <AvatarFallback>AOS</AvatarFallback>
                     </Avatar>
                     <h3 className="font-serif text-2xl font-bold mb-2 uppercase">
-                      Aacharya Om shah
+                      Acharya Om Saha
                     </h3>
                     <p className="text-xs text-muted-foreground mb-3 leading-relaxed">
                       Jyotish Aacharya (Gold Medal)<br />
