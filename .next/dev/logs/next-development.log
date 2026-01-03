@@ -1,2 +1,205 @@
-[00:00:02.349] Server  LOG      ✓ Ready in 1634ms
-[00:00:05.444] Server  LOG      ○ Compiling / ...
+[00:00:01.936] Server  LOG      ✓ Ready in 1321ms
+[00:00:10.776] Server  LOG      ○ Compiling /blog ...
+[00:00:34.547] Browser ERROR   Warning: Text content did not match. Server: "%s" Client: "%s"%s Saturday 3 January, 2026 Saturday, 3 January 2026 
+    at p
+    at div
+    at div
+    at section
+    at div
+    at Home (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__2c8cf1ac._.js:1890:245)
+    at main
+    at div
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at TooltipProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
+    at AuthProvider (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
+    at QueryClientProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
+    at App (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3430:16)
+    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
+    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
+    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
+    at Container (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
+    at AppContainer (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
+    at Root (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
+[00:00:34.547] Browser ERROR   Warning: An error occurred during hydration. The server HTML was replaced with client content in <%s>. div
+[00:00:34.547] Browser ERROR   uncaughtError: Error: Text content does not match server-rendered HTML.
+[00:00:34.547] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:34.547] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:34.547] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:34.547] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:34.547] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:34.547] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:34.547] Browser ERROR   uncaughtError: Error: Hydration failed because the initial UI does not match what was rendered on the server.
+[00:00:34.547] Browser ERROR   uncaughtError: Error: There was an error while hydrating. Because the error happened outside of a Suspense boundary, the entire root will switch to client rendering.
+[00:03:04.654] Server  LOG      ○ Compiling /contact ...
+[00:03:08.058] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <a> a 
+    at a
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3041:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18415:13
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18054:13
+    at a
+    at LinkComponent (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:4335:19)
+    at div
+    at div
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3267:13
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at CollectionProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18393:13
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18217:13
+    at Presence (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3609:13)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18153:13
+    at _c6 (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1598:258)
+    at li
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:17921:13
+    at ul
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at CollectionProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18393:13
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
+    at div
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:17896:13
+    at _c2 (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1562:255)
+    at nav
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at CollectionProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at NavigationMenuProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:17840:13)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:17702:13
+    at _c (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1543:250)
+    at nav
+    at div
+    at div
+    at header
+    at Navigation (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1694:227)
+    at div
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at TooltipProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
+    at AuthProvider (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
+    at QueryClientProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
+    at App (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3430:16)
+    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
+    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
+    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
+    at Container (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
+    at AppContainer (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
+    at Root (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
+[00:04:29.985] Server  LOG      ✓ Compiled in 6.1s
+[00:05:01.190] Server  LOG      ✓ Compiled in 6.9s
+[00:05:04.536] Server  LOG      ✓ Compiled in 364ms
+[00:05:18.097] Server  LOG      ✓ Compiled in 902ms
+[00:08:09.806] Server  LOG      ✓ Compiled in 930ms
+[00:12:49.348] Server  LOG      ✓ Compiled in 2.8s
+[00:13:05.940] Server  LOG      ✓ Compiled in 2.8s
+[00:15:07.554] Server  LOG      ✓ Compiled in 460ms
+[00:15:10.093] Server  LOG      ✓ Compiled in 893ms
+[00:16:20.903] Server  LOG      ✓ Compiled in 491ms
+[00:19:04.044] Server  LOG      ✓ Compiled in 1067ms
+[00:19:44.802] Server  LOG      ✓ Compiled in 375ms
+[00:20:31.683] Browser ERROR   Warning: validateDOMNesting(...): %s cannot appear as a descendant of <%s>.%s <a> a 
+    at a
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3041:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18415:13
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18054:13
+    at a
+    at LinkComponent (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:4335:19)
+    at div
+    at div
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3267:13
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at CollectionProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18393:13
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18217:13
+    at Presence (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3609:13)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18153:13
+    at _c6 (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1598:258)
+    at li
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:17921:13
+    at ul
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at CollectionProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:18393:13
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2905:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2873:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3028:17
+    at div
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:17896:13
+    at _c2 (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1562:255)
+    at nav
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3138:17
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at CollectionProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:3014:17)
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at NavigationMenuProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:17840:13)
+    at http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:17702:13
+    at _c (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1543:250)
+    at nav
+    at div
+    at div
+    at header
+    at Navigation (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1694:227)
+    at div
+    at Provider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:2767:21)
+    at TooltipProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:12315:13)
+    at AuthProvider (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:1059:25)
+    at QueryClientProvider (http://localhost:3000/_next/static/chunks/70d72_9f2e0931._.js:583:30)
+    at App (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__421ccec1._.js:3430:16)
+    at PathnameContextProviderAdapter (http://localhost:3000/_next/static/chunks/70d72_next_dist_shared_lib_c73d37cb._.js:5052:43)
+    at PagesDevOverlayErrorBoundary (http://localhost:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1142:9)
+    at PagesDevOverlayBridge (http://localhost:3000/_next/static/chunks/70d72_next_dist_b2895175._.js:1919:34)
+    at Container (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3041:1)
+    at AppContainer (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3140:25)
+    at Root (http://localhost:3000/_next/static/chunks/70d72_next_dist_client_02e29845._.js:3353:17)
+[00:21:20.163] Server  LOG      ○ Compiling /book-appointment ...
+[00:22:12.778] Server  LOG      ✓ Compiled in 396ms
+[00:22:20.058] Server  LOG      ✓ Compiled in 298ms
+[00:22:21.981] Server  LOG      ✓ Compiled in 299ms

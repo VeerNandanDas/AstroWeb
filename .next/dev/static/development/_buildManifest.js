@@ -2,6 +2,24 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
+  "/about": [
+    "static/chunks/pages/about.js"
+  ],
+  "/blog": [
+    "static/chunks/pages/blog.js"
+  ],
+  "/book-appointment": [
+    "static/chunks/pages/book-appointment.js"
+  ],
+  "/contact": [
+    "static/chunks/pages/contact.js"
+  ],
+  "/products": [
+    "static/chunks/pages/products.js"
+  ],
+  "/videos": [
+    "static/chunks/pages/videos.js"
+  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],
@@ -19,6 +37,7 @@ self.__BUILD_MANIFEST = {
     "/admin/horoscopes",
     "/admin/muhurat",
     "/admin/orders",
+    "/admin/panchang",
     "/admin/products",
     "/admin/testimonials",
     "/admin/videos",
@@ -27,6 +46,7 @@ self.__BUILD_MANIFEST = {
     "/api/blog/[slug]",
     "/api/horoscope",
     "/api/muhurat",
+    "/api/panchang",
     "/api/products",
     "/api/products/[id]",
     "/api/testimonials",

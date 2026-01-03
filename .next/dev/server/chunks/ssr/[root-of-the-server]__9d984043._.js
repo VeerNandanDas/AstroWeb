@@ -254,8 +254,7 @@ function Contact() {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"],
             title: "Business Hours",
             details: [
-                "Monday - Saturday: 10:00 AM - 7:00 PM",
-                "Sunday: Closed"
+                "Sunday - Saturday: 11:00 AM - 08:00 PM"
             ],
             action: null
         }
@@ -279,9 +278,9 @@ function Contact() {
                 className: "min-h-screen bg-background",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "bg-primary text-primary-foreground py-16",
+                        className: "vedic-header py-16",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "container mx-auto px-4 lg:px-8 text-center",
+                            className: "container mx-auto px-4 lg:px-8 text-center relative z-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
                                     className: "font-serif text-4xl md:text-5xl font-bold mb-4",
@@ -292,7 +291,7 @@ function Contact() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-primary-foreground/90 text-lg max-w-2xl mx-auto",
+                                    className: "text-white/90 text-lg max-w-2xl mx-auto",
                                     children: "We're here to answer your questions and guide you on your spiritual journey"
                                 }, void 0, false, {
                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/contact.tsx",

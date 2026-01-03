@@ -78,8 +78,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$lib$2f$supabase$2e$ts__$5b$api$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/lib/supabase.ts [api] (ecmascript)");
 ;
 const ADMIN_EMAILS = [
-    "admin@example.com",
-    "veernandan00u@gmail.com"
+    "acharyaomshah@gmail.com"
 ];
 const ADMIN_DOMAINS = [
     "@admin.divine"

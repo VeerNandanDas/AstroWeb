@@ -26,11 +26,10 @@ export function Navigation() {
 
   const productCategories = [
     { name: "Gemstones", href: "/products/gemstones", description: "Certified natural gemstones" },
-    { name: "Bracelets", href: "/products/bracelets", description: "Healing crystal bracelets" },
-    { name: "Rudraksha", href: "/products/rudraksha", description: "Authentic Rudraksha beads" },
-    { name: "Yantras", href: "/products/yantras", description: "Sacred geometric yantras" },
-    { name: "Rings", href: "/products/rings", description: "Astrological gemstone rings" },
-    { name: "Remedies", href: "/products/remedies", description: "Spiritual remedy products" },
+    { name: "Healing Crystals", href: "/products/healing-crystals", description: "Powerful healing crystals" },
+    { name: "Rudrakshas", href: "/products/rudrakshas", description: "Authentic Rudraksha beads" },
+    { name: "Vaastu Products", href: "/products/vaastu", description: "Energy balancing vaastu tools" },
+    { name: "Others", href: "/products/others", description: "Other spiritual items" },
   ];
 
   return (
@@ -60,7 +59,7 @@ export function Navigation() {
               <div className="absolute left-0 mt-0 w-56 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 <div className="p-2 space-y-1">
                   <div className="group/item relative">
-                    <Link href="/book-appointment?service=horoscope-single">
+                    <Link href="/book-appointment?service=horoscope-analysis">
                       <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-horoscope">
                         <span>Horoscope Analysis</span>
                         <span className="text-xs">›</span>
@@ -68,87 +67,56 @@ export function Navigation() {
                     </Link>
                     <div className="absolute left-full top-0 ml-1 w-56 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-200">
                       <div className="p-2 space-y-1">
-                        <Link href="/book-appointment?service=horoscope-single">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Written Maha Consultation Report</div>
-                        </Link>
-                        <Link href="/book-appointment?service=horoscope-complete">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Complete Consultation</div>
+                        <Link href="/book-appointment?service=horoscope-analysis">
+                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">In-depth Analysis</div>
                         </Link>
                       </div>
                     </div>
                   </div>
 
                   <div className="group/item relative">
-                    <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-matchmaking">
-                      <span>Match Making Consultation</span>
-                      <span className="text-xs">›</span>
-                    </div>
+                    <Link href="/book-appointment?service=vaastu-consultation">
+                      <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-vaastu">
+                        <span>Vaastu Consultation</span>
+                        <span className="text-xs">›</span>
+                      </div>
+                    </Link>
                     <div className="absolute left-full top-0 ml-1 w-56 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-200">
                       <div className="p-2 space-y-1">
-                        <Link href="/book-appointment?service=matchmaking">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Match Making</div>
-                        </Link>
-                        <Link href="/book-appointment?service=matchmaking">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Love marriage guidance</div>
-                        </Link>
-                        <Link href="/book-appointment?service=muhurta">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Marriage Timing & Muhurta</div>
+                        <Link href="/book-appointment?service=vaastu-consultation">
+                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Home & Office Vaastu</div>
                         </Link>
                       </div>
                     </div>
                   </div>
 
                   <div className="group/item relative">
-                    <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-gemstones">
-                      <span>Gemstones Consultation</span>
-                      <span className="text-xs">›</span>
-                    </div>
+                    <Link href="/book-appointment?service=varsha-kundali">
+                      <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-varshaphal">
+                        <span>Varsha Kundali Analysis</span>
+                        <span className="text-xs">›</span>
+                      </div>
+                    </Link>
                     <div className="absolute left-full top-0 ml-1 w-56 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-200">
                       <div className="p-2 space-y-1">
-                        <Link href="/book-appointment?service=gemstones">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Gemstone Recommendations</div>
+                        <Link href="/book-appointment?service=varsha-kundali">
+                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Yearly Predictions</div>
                         </Link>
                       </div>
                     </div>
                   </div>
 
                   <div className="group/item relative">
-                    <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-mahavasatu">
-                      <span>Maha Vastu Consultation</span>
-                      <span className="text-xs">›</span>
-                    </div>
-                    <div className="absolute left-full top-0 ml-1 w-56 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-200">
-                      <div className="p-2 space-y-1">
-                        <Link href="/book-appointment?service=varshaphal">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Maha Consultation</div>
-                        </Link>
+                    <Link href="/book-appointment?service=birth-time-rectification">
+                      <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-birthtime">
+                        <span>Birth Time Rectification</span>
+                        <span className="text-xs">›</span>
                       </div>
-                    </div>
-                  </div>
-
-                  <div className="group/item relative">
-                    <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-childbirth">
-                      <span>Childbirth Consultation Service</span>
-                      <span className="text-xs">›</span>
-                    </div>
+                    </Link>
                     <div className="absolute left-full top-0 ml-1 w-56 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-200">
                       <div className="p-2 space-y-1">
-                        <Link href="/book-appointment?service=childbirth">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Childbirth Consultation Service</div>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="group/item relative">
-                    <div className="px-4 py-2 text-sm hover:bg-accent/10 rounded cursor-pointer flex items-center justify-between group-hover/item:text-accent" data-testid="link-consultation-birthtime">
-                      <span>Birth Time Rectification</span>
-                      <span className="text-xs">›</span>
-                    </div>
-                    <div className="absolute left-full top-0 ml-1 w-56 bg-card border border-border rounded-lg shadow-lg opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-200">
-                      <div className="p-2 space-y-1">
-                        <Link href="/book-appointment?service=birthtime">
-                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Birth Time Rectification</div>
+                        <Link href="/book-appointment?service=birth-time-rectification">
+                          <div className="px-4 py-2 text-sm text-foreground/80 hover:bg-accent/10 hover:text-accent rounded cursor-pointer">Time Correction</div>
                         </Link>
                       </div>
                     </div>
@@ -257,32 +225,22 @@ export function Navigation() {
 
                   <div className="border-t pt-4 space-y-1">
                     <p className="text-sm font-semibold text-muted-foreground px-2">Book a Consultation</p>
-                    <Link href="/book-appointment?type=horoscope">
+                    <Link href="/book-appointment?service=horoscope-analysis">
                       <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)} data-testid="link-mobile-consultation-horoscope">
                         Horoscope Analysis
                       </Button>
                     </Link>
-                    <Link href="/book-appointment?type=matchmaking">
-                      <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)} data-testid="link-mobile-consultation-matchmaking">
-                        Match Making Consultation
+                    <Link href="/book-appointment?service=vaastu-consultation">
+                      <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)} data-testid="link-mobile-consultation-vaastu">
+                        Vaastu Consultation
                       </Button>
                     </Link>
-                    <Link href="/book-appointment?type=gemstones">
-                      <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)} data-testid="link-mobile-consultation-gemstones">
-                        Gemstones Consultation
+                    <Link href="/book-appointment?service=varsha-kundali">
+                      <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)} data-testid="link-mobile-consultation-varshaphal">
+                        Varsha Kundali Analysis
                       </Button>
                     </Link>
-                    <Link href="/book-appointment?type=mahavasatu">
-                      <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)} data-testid="link-mobile-consultation-mahavasatu">
-                        Maha Vastu Consultation
-                      </Button>
-                    </Link>
-                    <Link href="/book-appointment?type=childbirth">
-                      <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)} data-testid="link-mobile-consultation-childbirth">
-                        Childbirth Consultation Service
-                      </Button>
-                    </Link>
-                    <Link href="/book-appointment?type=birthtime">
+                    <Link href="/book-appointment?service=birth-time-rectification">
                       <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)} data-testid="link-mobile-consultation-birthtime">
                         Birth Time Rectification
                       </Button>

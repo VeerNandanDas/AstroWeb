@@ -69,7 +69,7 @@ function Document() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "og:title",
-                        content: "Divine Astrology - Premium Gemstones & Spiritual Guidance"
+                        content: "VedicIntution - Premium Gemstones & Spiritual Guidance"
                     }, void 0, false, {
                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/_document.tsx",
                         lineNumber: 9,

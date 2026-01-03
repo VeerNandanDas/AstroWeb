@@ -41,65 +41,30 @@ export default function BookAppointment() {
 
   const services = [
     {
-      id: "prashna",
-      name: "PRASHNA KUNDALI",
-      description: "Prashna Kundali, also known as Horary Astrology, is a Vedic astrology practice that answers specific questions by analyzing the time and place of the question.",
-      price: "INR 2100",
-      category: "horoscope"
-    },
-    {
-      id: "horoscope-single",
-      name: "HOROSCOPE ANALYSIS (ONE SPECIFIC FIELD)",
-      description: "Horoscope analysis is the practice of interpreting a person's birth chart to learn about their personality, relationships, career, finance, and destiny.",
+      id: "horoscope-analysis",
+      name: "Horoscope Analysis",
+      description: "Comprehensive analysis of your birth chart to provide insights into your personality, career, relationships, and future trends.",
       price: "INR 3100",
       category: "horoscope"
     },
     {
-      id: "horoscope-complete",
-      name: "COMPLETE HOROSCOPE ANALYSIS",
-      description: "Complete interpretation of a person's birth chart to analyze his/her personality, relationships, career, finance, and destiny with respect to one complete Antardasha period & possible astrological solutions/remedies.",
+      id: "vaastu-consultation",
+      name: "Vaastu Consultation",
+      description: "Expert guidance on Vaastu Shastra principles for your home or office to harmonize energy and ensure prosperity.",
       price: "INR 5100",
-      category: "horoscope"
-    },
-    {
-      id: "varshaphal",
-      name: "VARSHAPHAL (YEARLY HOROSCOPE)",
-      description: "Varshaphal is the complete prediction for one-year period starting from your present birth date. It is recommended for anyone who wants to plan the whole year ahead.",
-      price: "INR 6100",
       category: "vastu"
     },
     {
-      id: "muhurta",
-      name: "MUHURTA",
-      description: "A 'muhurta selection' is an astrological calculation to determine the most favorable and auspicious time to begin significant life events like marriage, travel, business inaugurations, or moving into a new house.",
+      id: "varsha-kundali",
+      name: "Varsha Kundali Analysis",
+      description: "Annual horoscope prediction based on your solar return chart, covering the year from one birthday to the next.",
       price: "INR 6100",
-      category: "matchmaking"
+      category: "horoscope"
     },
     {
-      id: "matchmaking",
-      name: "MATCH MAKING (KUNDALI MILAAN)",
-      description: "Match Making, also called Ashtakoot Milaan, matches kundlis of a prospective bride and groom to understand the astrological compatibility of their marriage based on their horoscopes.",
-      price: "INR 6100",
-      category: "matchmaking"
-    },
-    {
-      id: "gemstones",
-      name: "GEMSTONES CONSULTATION",
-      description: "Expert guidance on selecting the most suitable gemstones based on your birth chart and astrological placements to enhance positive energies and mitigate negative influences.",
-      price: "INR 4100",
-      category: "gemstones"
-    },
-    {
-      id: "childbirth",
-      name: "CHILDBIRTH CONSULTATION SERVICE",
-      description: "Specialized consultation for childbirth timing, baby's auspicious birth details, and early life horoscope analysis.",
-      price: "INR 5100",
-      category: "childbirth"
-    },
-    {
-      id: "birthtime",
-      name: "BIRTH TIME RECTIFICATION",
-      description: "Accurate determination and correction of your birth time through detailed event analysis for precise astrological calculations.",
+      id: "birth-time-rectification",
+      name: "Birth Time Rectification",
+      description: "Precise calculation to correct your recorded birth time by matching life events with astrological timing.",
       price: "INR 4100",
       category: "birthtime"
     }

@@ -157,34 +157,28 @@ export default function Home() {
       description: "Natural certified gemstones"
     },
     {
-      name: "Bracelets",
-      href: "/products/bracelets",
+      name: "Healing Crystals",
+      href: "/products/healing-crystals",
       image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=300&fit=crop",
-      description: "Healing crystal bracelets"
+      description: "Powerful healing crystals"
     },
     {
-      name: "Rudraksha",
-      href: "/products/rudraksha",
+      name: "Rudrakshas",
+      href: "/products/rudrakshas",
       image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=400&h=300&fit=crop",
       description: "Sacred Rudraksha beads"
     },
     {
-      name: "Yantras",
-      href: "/products/yantras",
+      name: "Vaastu Products",
+      href: "/products/vaastu",
       image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=400&h=300&fit=crop",
-      description: "Powerful sacred yantras"
+      description: "Energy balancing vaastu tools"
     },
     {
-      name: "Rings",
-      href: "/products/rings",
-      image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=300&fit=crop",
-      description: "Astrological gemstone rings"
-    },
-    {
-      name: "Remedies",
-      href: "/products/remedies",
+      name: "Others",
+      href: "/products/others",
       image: "/astro-remedies-for-all-sun-signs-2025-1733308932583.jpg",
-      description: "Spiritual remedy products"
+      description: "Other spiritual items"
     }
   ];
 
@@ -217,13 +211,13 @@ export default function Home() {
               <source src="/videoplayback.mp4" type="video/mp4" />
             </video>
             {/* Dark overlay for better text readability */}
-            <div className="absolute inset-0 bg-gradient-to-b from-purple-900/80 via-violet-900/70 to-purple-900/85"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-blue-950/95 via-blue-950/90 to-slate-950/95"></div>
           </div>
 
           <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 max-w-4xl mx-auto leading-tight">
-              Decode Your <span className="text-accent">Prārabdha to</span> <br />
+              Decode Your <span className="text-accent">Prārabdha</span> to <br />
               Engineer Your <span className="text-accent">Karma</span>
             </h1>
 
@@ -249,7 +243,7 @@ export default function Home() {
         </section>
 
         {/* Smooth Transition Section */}
-        <div className="h-32 bg-gradient-to-b from-purple-900/85 via-purple-800/40 to-background"></div>
+        <div className="h-32 bg-gradient-to-b from-blue-950/85 via-blue-900/40 to-background"></div>
 
         {/* Features Section */}
         <section className="py-16 lg:py-24 bg-background relative">
@@ -257,23 +251,23 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
               {/* Card 1 - Purple/Lavender */}
               <div className="group perspective-1000">
-                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-purple-200 to-purple-300 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:rotate-1 overflow-hidden">
+                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-sky-100 to-blue-200 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:rotate-1 overflow-hidden">
                   <div className="absolute top-4 right-4 w-12 h-12 rounded-full bg-white/40 flex items-center justify-center">
-                    <Shield className="h-6 w-6 text-purple-700" />
+                    <Shield className="h-6 w-6 text-blue-700" />
                   </div>
-                  <div className="absolute -bottom-4 -left-4 w-24 h-24 rounded-full bg-purple-400/30"></div>
+                  <div className="absolute -bottom-4 -left-4 w-24 h-24 rounded-full bg-blue-400/20"></div>
                   <div className="absolute top-1/2 right-8 w-16 h-16">
-                    <div className="w-full h-full rounded-full border-4 border-purple-400/40"></div>
+                    <div className="w-full h-full rounded-full border-4 border-blue-400/30"></div>
                   </div>
                   <div className="relative z-10 mt-12">
-                    <h3 className="font-serif text-2xl font-bold mb-3 text-purple-900">100%<br /><span className="italic">Authentic</span></h3>
-                    <p className="text-purple-800 text-sm leading-relaxed">All products certified and verified by expert astrologers</p>
+                    <h3 className="font-serif text-2xl font-bold mb-3 text-blue-900">100%<br /><span className="italic">Authentic</span></h3>
+                    <p className="text-blue-800 text-sm leading-relaxed">All products certified and verified by expert astrologers</p>
                   </div>
                 </div>
               </div>
               {/* Card 2 - Deep Purple/Blue */}
               <div className="group perspective-1000">
-                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-indigo-500 to-purple-600 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:-rotate-1 overflow-hidden">
+                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:-rotate-1 overflow-hidden">
                   <div className="absolute top-4 right-4 w-12 h-12 rounded-full bg-white/30 flex items-center justify-center">
                     <Award className="h-6 w-6 text-white" />
                   </div>
@@ -282,7 +276,7 @@ export default function Home() {
                     <div className="absolute inset-2 rounded-full bg-white/10"></div>
                     <div className="absolute inset-4 rounded-full bg-white/10"></div>
                   </div>
-                  <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-purple-700/30"></div>
+                  <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-blue-900/30"></div>
                   <div className="relative z-10 mt-12">
                     <h3 className="font-serif text-2xl font-bold mb-3 text-white">Premium<br /><span className="italic">Quality</span></h3>
                     <p className="text-white/90 text-sm leading-relaxed">Sourced from trusted suppliers with quality assurance</p>

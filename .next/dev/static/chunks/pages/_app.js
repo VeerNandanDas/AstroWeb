@@ -11,8 +11,8 @@ __turbopack_load_page_chunks__("/_app", [
   "static/chunks/70d72_@supabase_realtime-js_dist_module_f2c3c842._.js",
   "static/chunks/70d72_@supabase_storage-js_dist_module_55637b84._.js",
   "static/chunks/70d72_@supabase_auth-js_dist_module_f073888e._.js",
-  "static/chunks/70d72_ab4c692c._.js",
+  "static/chunks/70d72_9f2e0931._.js",
   "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_styles_globals_5b1225d7.css",
   "static/chunks/584c1_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__app_2da965e7._.js",
-  "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__app_e38b6c81._.js"
+  "static/chunks/431a2_AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38_src_pages__app_358ab2fe._.js"
 ])

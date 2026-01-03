@@ -258,9 +258,9 @@ function Blog() {
                 className: "min-h-screen bg-background",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "bg-primary text-primary-foreground py-16",
+                        className: "vedic-header py-16",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "container mx-auto px-4 lg:px-8 text-center",
+                            className: "container mx-auto px-4 lg:px-8 text-center relative z-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
                                     className: "font-serif text-4xl md:text-5xl font-bold mb-4",
@@ -271,7 +271,7 @@ function Blog() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-primary-foreground/90 text-lg max-w-2xl mx-auto",
+                                    className: "text-white/90 text-lg max-w-2xl mx-auto",
                                     children: "Explore articles on astrology, gemstones, and spiritual wellness"
                                 }, void 0, false, {
                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/blog/index.tsx",

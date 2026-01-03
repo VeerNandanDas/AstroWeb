@@ -609,7 +609,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30
 const buttonVariants = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$class$2d$variance$2d$authority$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["cva"])("inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0" + " hover-elevate active-elevate-2", {
     variants: {
         variant: {
-            default: "bg-primary text-primary-foreground border border-primary-border",
+            default: "bg-primary text-primary-foreground shadow-md",
             destructive: "bg-destructive text-destructive-foreground border border-destructive-border",
             outline: // Shows the background color of whatever card / sidebar / accent background it is inside of.
             // Inherits the current text color.
@@ -1477,65 +1477,30 @@ function BookAppointment() {
     const [selectedService, setSelectedService] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const services = [
         {
-            id: "prashna",
-            name: "PRASHNA KUNDALI",
-            description: "Prashna Kundali, also known as Horary Astrology, is a Vedic astrology practice that answers specific questions by analyzing the time and place of the question.",
-            price: "INR 2100",
-            category: "horoscope"
-        },
-        {
-            id: "horoscope-single",
-            name: "HOROSCOPE ANALYSIS (ONE SPECIFIC FIELD)",
-            description: "Horoscope analysis is the practice of interpreting a person's birth chart to learn about their personality, relationships, career, finance, and destiny.",
+            id: "horoscope-analysis",
+            name: "Horoscope Analysis",
+            description: "Comprehensive analysis of your birth chart to provide insights into your personality, career, relationships, and future trends.",
             price: "INR 3100",
             category: "horoscope"
         },
         {
-            id: "horoscope-complete",
-            name: "COMPLETE HOROSCOPE ANALYSIS",
-            description: "Complete interpretation of a person's birth chart to analyze his/her personality, relationships, career, finance, and destiny with respect to one complete Antardasha period & possible astrological solutions/remedies.",
+            id: "vaastu-consultation",
+            name: "Vaastu Consultation",
+            description: "Expert guidance on Vaastu Shastra principles for your home or office to harmonize energy and ensure prosperity.",
             price: "INR 5100",
-            category: "horoscope"
-        },
-        {
-            id: "varshaphal",
-            name: "VARSHAPHAL (YEARLY HOROSCOPE)",
-            description: "Varshaphal is the complete prediction for one-year period starting from your present birth date. It is recommended for anyone who wants to plan the whole year ahead.",
-            price: "INR 6100",
             category: "vastu"
         },
         {
-            id: "muhurta",
-            name: "MUHURTA",
-            description: "A 'muhurta selection' is an astrological calculation to determine the most favorable and auspicious time to begin significant life events like marriage, travel, business inaugurations, or moving into a new house.",
+            id: "varsha-kundali",
+            name: "Varsha Kundali Analysis",
+            description: "Annual horoscope prediction based on your solar return chart, covering the year from one birthday to the next.",
             price: "INR 6100",
-            category: "matchmaking"
+            category: "horoscope"
         },
         {
-            id: "matchmaking",
-            name: "MATCH MAKING (KUNDALI MILAAN)",
-            description: "Match Making, also called Ashtakoot Milaan, matches kundlis of a prospective bride and groom to understand the astrological compatibility of their marriage based on their horoscopes.",
-            price: "INR 6100",
-            category: "matchmaking"
-        },
-        {
-            id: "gemstones",
-            name: "GEMSTONES CONSULTATION",
-            description: "Expert guidance on selecting the most suitable gemstones based on your birth chart and astrological placements to enhance positive energies and mitigate negative influences.",
-            price: "INR 4100",
-            category: "gemstones"
-        },
-        {
-            id: "childbirth",
-            name: "CHILDBIRTH CONSULTATION SERVICE",
-            description: "Specialized consultation for childbirth timing, baby's auspicious birth details, and early life horoscope analysis.",
-            price: "INR 5100",
-            category: "childbirth"
-        },
-        {
-            id: "birthtime",
-            name: "BIRTH TIME RECTIFICATION",
-            description: "Accurate determination and correction of your birth time through detailed event analysis for precise astrological calculations.",
+            id: "birth-time-rectification",
+            name: "Birth Time Rectification",
+            description: "Precise calculation to correct your recorded birth time by matching life events with astrological timing.",
             price: "INR 4100",
             category: "birthtime"
         }
@@ -1650,12 +1615,12 @@ function BookAppointment() {
                         children: "Consultation Bookings - Divine Astrology"
                     }, void 0, false, {
                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                        lineNumber: 207,
+                        lineNumber: 172,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                    lineNumber: 206,
+                    lineNumber: 171,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1671,7 +1636,7 @@ function BookAppointment() {
                                         children: "Consultation Bookings"
                                     }, void 0, false, {
                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                        lineNumber: 212,
+                                        lineNumber: 177,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1679,18 +1644,18 @@ function BookAppointment() {
                                         children: "Manage all customer consultation bookings"
                                     }, void 0, false, {
                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                        lineNumber: 213,
+                                        lineNumber: 178,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                lineNumber: 211,
+                                lineNumber: 176,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                            lineNumber: 210,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1703,17 +1668,17 @@ function BookAppointment() {
                                         children: "Loading bookings..."
                                     }, void 0, false, {
                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                        lineNumber: 221,
+                                        lineNumber: 186,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                    lineNumber: 220,
+                                    lineNumber: 185,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                lineNumber: 219,
+                                lineNumber: 184,
                                 columnNumber: 15
                             }, this) : appointments.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Card"], {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1723,17 +1688,17 @@ function BookAppointment() {
                                         children: "No consultation bookings yet"
                                     }, void 0, false, {
                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                        lineNumber: 227,
+                                        lineNumber: 192,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                    lineNumber: 226,
+                                    lineNumber: 191,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                lineNumber: 225,
+                                lineNumber: 190,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "grid gap-4",
@@ -1752,7 +1717,7 @@ function BookAppointment() {
                                                                     children: "Name"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 237,
+                                                                    lineNumber: 202,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1760,13 +1725,13 @@ function BookAppointment() {
                                                                     children: appointment.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 238,
+                                                                    lineNumber: 203,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 236,
+                                                            lineNumber: 201,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1776,7 +1741,7 @@ function BookAppointment() {
                                                                     children: "Email"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 241,
+                                                                    lineNumber: 206,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1784,13 +1749,13 @@ function BookAppointment() {
                                                                     children: appointment.email
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 242,
+                                                                    lineNumber: 207,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 240,
+                                                            lineNumber: 205,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1800,7 +1765,7 @@ function BookAppointment() {
                                                                     children: "Phone"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 245,
+                                                                    lineNumber: 210,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1808,13 +1773,13 @@ function BookAppointment() {
                                                                     children: appointment.phone
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 246,
+                                                                    lineNumber: 211,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 244,
+                                                            lineNumber: 209,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1824,20 +1789,20 @@ function BookAppointment() {
                                                                     children: "Type"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 249,
+                                                                    lineNumber: 214,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Badge"], {
                                                                     children: appointment.consultationType
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 250,
+                                                                    lineNumber: 215,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 248,
+                                                            lineNumber: 213,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1849,14 +1814,14 @@ function BookAppointment() {
                                                                             className: "w-4 h-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 253,
+                                                                            lineNumber: 218,
                                                                             columnNumber: 96
                                                                         }, this),
                                                                         "Date"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 253,
+                                                                    lineNumber: 218,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1864,13 +1829,13 @@ function BookAppointment() {
                                                                     children: appointment.date
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 254,
+                                                                    lineNumber: 219,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 252,
+                                                            lineNumber: 217,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1882,14 +1847,14 @@ function BookAppointment() {
                                                                             className: "w-4 h-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 257,
+                                                                            lineNumber: 222,
                                                                             columnNumber: 96
                                                                         }, this),
                                                                         "Time"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 257,
+                                                                    lineNumber: 222,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1897,13 +1862,13 @@ function BookAppointment() {
                                                                     children: appointment.time
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 258,
+                                                                    lineNumber: 223,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 256,
+                                                            lineNumber: 221,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1913,7 +1878,7 @@ function BookAppointment() {
                                                                     children: "Status"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 261,
+                                                                    lineNumber: 226,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -1921,13 +1886,13 @@ function BookAppointment() {
                                                                     children: appointment.status
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 262,
+                                                                    lineNumber: 227,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 260,
+                                                            lineNumber: 225,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1937,7 +1902,7 @@ function BookAppointment() {
                                                                     children: "Booked"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 274,
+                                                                    lineNumber: 239,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1945,19 +1910,19 @@ function BookAppointment() {
                                                                     children: appointment.createdAt ? new Date(appointment.createdAt).toLocaleDateString() : "N/A"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 275,
+                                                                    lineNumber: 240,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 273,
+                                                            lineNumber: 238,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 235,
+                                                    lineNumber: 200,
                                                     columnNumber: 23
                                                 }, this),
                                                 appointment.message && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1968,7 +1933,7 @@ function BookAppointment() {
                                                             children: "Message"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 282,
+                                                            lineNumber: 247,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1976,13 +1941,13 @@ function BookAppointment() {
                                                             children: appointment.message
                                                         }, void 0, false, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 283,
+                                                            lineNumber: 248,
                                                             columnNumber: 27
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 281,
+                                                    lineNumber: 246,
                                                     columnNumber: 25
                                                 }, this),
                                                 appointment.status === "pending" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1998,14 +1963,14 @@ function BookAppointment() {
                                                                     className: "w-4 h-4 mr-2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 295,
+                                                                    lineNumber: 260,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 "Accept"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 289,
+                                                            lineNumber: 254,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2018,20 +1983,20 @@ function BookAppointment() {
                                                                     className: "w-4 h-4 mr-2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 304,
+                                                                    lineNumber: 269,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 "Decline"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 298,
+                                                            lineNumber: 263,
                                                             columnNumber: 27
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 288,
+                                                    lineNumber: 253,
                                                     columnNumber: 25
                                                 }, this),
                                                 appointment.status === "accepted" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2046,14 +2011,14 @@ function BookAppointment() {
                                                                     className: "w-4 h-4 mr-2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 317,
+                                                                    lineNumber: 282,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 "Start Video Meeting"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 312,
+                                                            lineNumber: 277,
                                                             columnNumber: 27
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2064,40 +2029,40 @@ function BookAppointment() {
                                                             children: "Mark Complete"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 320,
+                                                            lineNumber: 285,
                                                             columnNumber: 27
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 311,
+                                                    lineNumber: 276,
                                                     columnNumber: 25
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                            lineNumber: 234,
+                                            lineNumber: 199,
                                             columnNumber: 21
                                         }, this)
                                     }, appointment.id, false, {
                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                        lineNumber: 233,
+                                        lineNumber: 198,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                lineNumber: 231,
+                                lineNumber: 196,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                            lineNumber: 217,
+                            lineNumber: 182,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                    lineNumber: 209,
+                    lineNumber: 174,
                     columnNumber: 9
                 }, this)
             ]
@@ -2110,47 +2075,47 @@ function BookAppointment() {
                     children: "Book Your Consultation - Divine Astrology"
                 }, void 0, false, {
                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                    lineNumber: 344,
+                    lineNumber: 309,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                lineNumber: 343,
+                lineNumber: 308,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "min-h-screen bg-background",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-primary text-primary-foreground py-16",
+                        className: "vedic-header py-16",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "container mx-auto px-4 lg:px-8 text-center",
+                            className: "container mx-auto px-4 lg:px-8 text-center relative z-10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "font-serif text-4xl md:text-5xl font-bold mb-4",
+                                    className: "font-serif text-4xl md:text-5xl font-bold mb-4 text-white",
                                     children: "Book Your Consultation"
                                 }, void 0, false, {
                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                    lineNumber: 349,
+                                    lineNumber: 314,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-primary-foreground/90 text-lg max-w-2xl mx-auto",
+                                    className: "text-white/90 text-lg max-w-2xl mx-auto",
                                     children: "Get personalized astrology guidance from our expert astrologers"
                                 }, void 0, false, {
                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                    lineNumber: 352,
+                                    lineNumber: 317,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                            lineNumber: 348,
+                            lineNumber: 313,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                        lineNumber: 347,
+                        lineNumber: 312,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2176,20 +2141,20 @@ function BookAppointment() {
                                                                     alt: "Acharya Om Shah Kashyap"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 365,
+                                                                    lineNumber: 330,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$avatar$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["AvatarFallback"], {
                                                                     children: "AOS"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 366,
+                                                                    lineNumber: 331,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 364,
+                                                            lineNumber: 329,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2197,7 +2162,7 @@ function BookAppointment() {
                                                             children: "ACHARYA OM SHAH KASHYAP"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 368,
+                                                            lineNumber: 333,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2206,32 +2171,32 @@ function BookAppointment() {
                                                                 "Jyotish Acharya (Gold Medal)",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 372,
+                                                                    lineNumber: 337,
                                                                     columnNumber: 51
                                                                 }, this),
                                                                 "Bhartiya Vidya Bhawan",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 373,
+                                                                    lineNumber: 338,
                                                                     columnNumber: 44
                                                                 }, this),
                                                                 "M.A. Astrology, UOU, Uttarakhand",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 374,
+                                                                    lineNumber: 339,
                                                                     columnNumber: 55
                                                                 }, this),
                                                                 "Medical Astrology (Diploma), SLBSNSU",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 375,
+                                                                    lineNumber: 340,
                                                                     columnNumber: 59
                                                                 }, this),
                                                                 "Vaastu Shastra (Diploma), BVB–Delhi"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 371,
+                                                            lineNumber: 336,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2243,7 +2208,7 @@ function BookAppointment() {
                                                                         className: "h-4 w-4 text-accent fill-accent"
                                                                     }, i, false, {
                                                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                        lineNumber: 380,
+                                                                        lineNumber: 345,
                                                                         columnNumber: 25
                                                                     }, this)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2251,19 +2216,19 @@ function BookAppointment() {
                                                                     children: "(500+ consultations)"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 382,
+                                                                    lineNumber: 347,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 378,
+                                                            lineNumber: 343,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 363,
+                                                    lineNumber: 328,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2276,7 +2241,7 @@ function BookAppointment() {
                                                                     className: "h-5 w-5 text-accent flex-shrink-0 mt-0.5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 388,
+                                                                    lineNumber: 353,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2286,7 +2251,7 @@ function BookAppointment() {
                                                                             children: "Address"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 390,
+                                                                            lineNumber: 355,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2295,32 +2260,32 @@ function BookAppointment() {
                                                                                 "133 D, India Expo Plaza",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                                    lineNumber: 391,
+                                                                                    lineNumber: 356,
                                                                                     columnNumber: 93
                                                                                 }, this),
                                                                                 "Knowledge Park II Metro",
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                                    lineNumber: 391,
+                                                                                    lineNumber: 356,
                                                                                     columnNumber: 122
                                                                                 }, this),
                                                                                 "Greater Noida, 201310"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 391,
+                                                                            lineNumber: 356,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 389,
+                                                                    lineNumber: 354,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 387,
+                                                            lineNumber: 352,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2330,7 +2295,7 @@ function BookAppointment() {
                                                                     className: "h-5 w-5 text-accent flex-shrink-0 mt-0.5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 395,
+                                                                    lineNumber: 360,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2340,7 +2305,7 @@ function BookAppointment() {
                                                                             children: "Email"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 397,
+                                                                            lineNumber: 362,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2348,19 +2313,19 @@ function BookAppointment() {
                                                                             children: "acharyaomshah@gmail.com"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 398,
+                                                                            lineNumber: 363,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 396,
+                                                                    lineNumber: 361,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 394,
+                                                            lineNumber: 359,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2370,7 +2335,7 @@ function BookAppointment() {
                                                                     className: "h-5 w-5 text-accent flex-shrink-0 mt-0.5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 402,
+                                                                    lineNumber: 367,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2380,7 +2345,7 @@ function BookAppointment() {
                                                                             children: "Phone"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 404,
+                                                                            lineNumber: 369,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2388,25 +2353,25 @@ function BookAppointment() {
                                                                             children: "+91 85275 30910"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 405,
+                                                                            lineNumber: 370,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 403,
+                                                                    lineNumber: 368,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 401,
+                                                            lineNumber: 366,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 386,
+                                                    lineNumber: 351,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2420,7 +2385,7 @@ function BookAppointment() {
                                                                     children: "Consultation Fee"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 412,
+                                                                    lineNumber: 377,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2428,13 +2393,13 @@ function BookAppointment() {
                                                                     children: services.find((s)=>s.name === consultationType)?.price || "Select Service"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 413,
+                                                                    lineNumber: 378,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 411,
+                                                            lineNumber: 376,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2445,34 +2410,34 @@ function BookAppointment() {
                                                                 className: "w-full h-auto rounded-md shadow-sm"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                lineNumber: 418,
+                                                                lineNumber: 383,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 417,
+                                                            lineNumber: 382,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 410,
+                                                    lineNumber: 375,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                            lineNumber: 362,
+                                            lineNumber: 327,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                        lineNumber: 361,
+                                        lineNumber: 326,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                    lineNumber: 360,
+                                    lineNumber: 325,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2485,12 +2450,12 @@ function BookAppointment() {
                                                     children: "Appointment Details"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 432,
+                                                    lineNumber: 397,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                lineNumber: 431,
+                                                lineNumber: 396,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -2509,7 +2474,7 @@ function BookAppointment() {
                                                                             children: "Full Name *"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 438,
+                                                                            lineNumber: 403,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -2517,13 +2482,13 @@ function BookAppointment() {
                                                                             required: true
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 439,
+                                                                            lineNumber: 404,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 437,
+                                                                    lineNumber: 402,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2534,7 +2499,7 @@ function BookAppointment() {
                                                                             children: "Email *"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 442,
+                                                                            lineNumber: 407,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -2543,13 +2508,13 @@ function BookAppointment() {
                                                                             required: true
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 443,
+                                                                            lineNumber: 408,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 441,
+                                                                    lineNumber: 406,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2560,7 +2525,7 @@ function BookAppointment() {
                                                                             children: "Phone Number *"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 446,
+                                                                            lineNumber: 411,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -2569,13 +2534,13 @@ function BookAppointment() {
                                                                             required: true
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 447,
+                                                                            lineNumber: 412,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 445,
+                                                                    lineNumber: 410,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2586,7 +2551,7 @@ function BookAppointment() {
                                                                             children: "Date of Birth *"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 450,
+                                                                            lineNumber: 415,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Input"], {
@@ -2595,19 +2560,19 @@ function BookAppointment() {
                                                                             required: true
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 451,
+                                                                            lineNumber: 416,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 449,
+                                                                    lineNumber: 414,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 436,
+                                                            lineNumber: 401,
                                                             columnNumber: 21
                                                         }, this),
                                                         selectedService ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2622,7 +2587,7 @@ function BookAppointment() {
                                                                                     children: service.name
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                                    lineNumber: 460,
+                                                                                    lineNumber: 425,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2630,13 +2595,13 @@ function BookAppointment() {
                                                                                     children: service.price
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                                    lineNumber: 461,
+                                                                                    lineNumber: 426,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 459,
+                                                                            lineNumber: 424,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2644,18 +2609,18 @@ function BookAppointment() {
                                                                             children: service.description
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 463,
+                                                                            lineNumber: 428,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, service.id, true, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 458,
+                                                                    lineNumber: 423,
                                                                     columnNumber: 27
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 456,
+                                                            lineNumber: 421,
                                                             columnNumber: 23
                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "space-y-3",
@@ -2664,7 +2629,7 @@ function BookAppointment() {
                                                                     children: "Select Service *"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 469,
+                                                                    lineNumber: 434,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2681,7 +2646,7 @@ function BookAppointment() {
                                                                                             children: service.name
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                                            lineNumber: 481,
+                                                                                            lineNumber: 446,
                                                                                             columnNumber: 33
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2689,13 +2654,13 @@ function BookAppointment() {
                                                                                             children: service.price
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                                            lineNumber: 482,
+                                                                                            lineNumber: 447,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                                    lineNumber: 480,
+                                                                                    lineNumber: 445,
                                                                                     columnNumber: 31
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2703,24 +2668,24 @@ function BookAppointment() {
                                                                                     children: service.description
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                                    lineNumber: 484,
+                                                                                    lineNumber: 449,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, service.id, true, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 472,
+                                                                            lineNumber: 437,
                                                                             columnNumber: 29
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 470,
+                                                                    lineNumber: 435,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 468,
+                                                            lineNumber: 433,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2730,7 +2695,7 @@ function BookAppointment() {
                                                                     children: "Select Date"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 492,
+                                                                    lineNumber: 457,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2743,18 +2708,18 @@ function BookAppointment() {
                                                                         className: "rounded-md"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                        lineNumber: 494,
+                                                                        lineNumber: 459,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 493,
+                                                                    lineNumber: 458,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 491,
+                                                            lineNumber: 456,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2764,7 +2729,7 @@ function BookAppointment() {
                                                                     children: "Select Time Slot *"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 505,
+                                                                    lineNumber: 470,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2777,18 +2742,18 @@ function BookAppointment() {
                                                                             children: time
                                                                         }, time, false, {
                                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                            lineNumber: 508,
+                                                                            lineNumber: 473,
                                                                             columnNumber: 27
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 506,
+                                                                    lineNumber: 471,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 504,
+                                                            lineNumber: 469,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2799,7 +2764,7 @@ function BookAppointment() {
                                                                     children: "Additional Message (Optional)"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 522,
+                                                                    lineNumber: 487,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$textarea$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Textarea"], {
@@ -2808,13 +2773,13 @@ function BookAppointment() {
                                                                     rows: 4
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                                    lineNumber: 523,
+                                                                    lineNumber: 488,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 521,
+                                                            lineNumber: 486,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Testing$2f$AstroWeb$2d$7ae30bc1f7a1605f38f538a70a5f77df29722c38$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -2825,46 +2790,46 @@ function BookAppointment() {
                                                             children: "Book via WhatsApp"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                            lineNumber: 530,
+                                                            lineNumber: 495,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                    lineNumber: 435,
+                                                    lineNumber: 400,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                                lineNumber: 434,
+                                                lineNumber: 399,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                        lineNumber: 430,
+                                        lineNumber: 395,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                                    lineNumber: 429,
+                                    lineNumber: 394,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                            lineNumber: 359,
+                            lineNumber: 324,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                        lineNumber: 358,
+                        lineNumber: 323,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Testing/AstroWeb-7ae30bc1f7a1605f38f538a70a5f77df29722c38/src/pages/book-appointment.tsx",
-                lineNumber: 346,
+                lineNumber: 311,
                 columnNumber: 7
             }, this)
         ]

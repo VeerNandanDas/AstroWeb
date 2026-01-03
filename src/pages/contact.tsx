@@ -41,7 +41,7 @@ export default function Contact() {
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Monday - Saturday: 10:00 AM - 7:00 PM", "Sunday: Closed"],
+      details: ["Sunday - Saturday: 11:00 AM - 08:00 PM"],
       action: null
     }
   ];
